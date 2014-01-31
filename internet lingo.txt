@@ -1,4 +1,5 @@
 2:to
+2g
 3g
 aaj
 aajtak
@@ -494,6 +495,7 @@ harish
 harshinilakshmi
 haryana
 hasn:has
+hasnt:has not
 hathway
 hats
 hav:have
