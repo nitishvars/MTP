@@ -913,6 +913,7 @@ heros
 high-quality
 high-spirited
 hilarious
+highspeed
 holy
 homage
 honest
@@ -1084,6 +1085,7 @@ liberty
 lifesaver
 light-hearted
 lighter
+lightning
 likable
 like
 liked
@@ -1134,6 +1136,7 @@ magnanimously
 magnificence
 magnificent
 magnificently
+mahan
 majestic
 majesty
 manageable
@@ -1853,6 +1856,7 @@ truthfully
 truthfulness
 twinkly
 ultra-crisp
+ultra-highspeed
 unabashed
 unabashedly
 unaffected

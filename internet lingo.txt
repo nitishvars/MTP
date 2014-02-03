@@ -723,6 +723,7 @@ lootey:theft
 lovin:loving
 lovu:love you
 luv:love
+luvz:love
 luvindia:love india
 lyk:like
 maa
@@ -1429,8 +1430,8 @@ writeguy:write guy
 wrkg:working
 wrks:works
 wrld:world
-wtf:not
-wth:not
+wtf:what the fuck
+wth:what the hell
 wud:would
 xnt:not
 xp

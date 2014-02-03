@@ -49,8 +49,12 @@ for end_date in end_dates:
 					mytype = filecontent[mytypeSt:mytypeEn];
 					hits = int(filecontent[hitSt:len(filecontent)].strip());
 					
+					#added on 3Feb to tackle issue like don't isn't
+					punctuation = re.compile(r'[\']') 
+					title = punctuation.sub("",title.lower());
+					
 					#word_list = re.split('\s+', title.lower());
-					word_list = PunktWordTokenizer().tokenize(title.lower());
+					word_list = PunktWordTokenizer().tokenize(title);
 					text, processed_text = spellChecker.correct(word_list);
 					# Prepare SQL query to INSERT a record into the database.
 					sql = "INSERT INTO input(service_provider, tweet_month, tweet, tweet_processed, tweet_word_count, mytype, hits) \
