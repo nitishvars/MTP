@@ -1346,7 +1346,6 @@ premier
 prestige
 prestigious
 prettily
-pretty
 priceless
 pride
 principled
@@ -1533,7 +1532,6 @@ rich
 richer
 richly
 richness
-right
 righten
 righteous
 righteously
@@ -1825,8 +1823,6 @@ top-notch
 top-quality
 topnotch
 tops
-tough
-tougher
 toughest
 traction
 tranquil

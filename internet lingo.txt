@@ -432,6 +432,7 @@ freesamples
 freshers
 frm:from
 frnds:freinds
+fuc*ed:fuck
 funbook
 funnyabbreviations
 gaali:bad
@@ -1125,6 +1126,7 @@ signalling
 signs
 sikri
 sim
+sims
 simcard
 singh
 sirji:sir

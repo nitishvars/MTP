@@ -15,7 +15,7 @@ db = MySQLdb.connect("localhost","root","nitish","testdb" )
 cursor = db.cursor()
 
 service_provider='aircel';
-path=''.join(['../twitter/',service_provider]);
+path=''.join(['../twitter1/',service_provider]);
 end_dates = [ name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name)) ];
 os.chdir(''.join([path,'/',end_dates[0]]));
 
@@ -52,6 +52,7 @@ for end_date in end_dates:
 					#added on 3Feb to tackle issue like don't isn't
 					punctuation = re.compile(r'[\']') 
 					title = punctuation.sub("",title.lower());
+					title.replace("smart phone","smartphone");
 					
 					#word_list = re.split('\s+', title.lower());
 					word_list = PunktWordTokenizer().tokenize(title);
@@ -61,6 +62,7 @@ for end_date in end_dates:
 						   VALUES ('%s', '%s', '%s', '%s', '%d', '%s', '%d')" % \
 						   (service_provider, end_date,	text, processed_text, len(word_list), mytype, hits)
 				except:
+					print "23";
 					file_error.write(end_date + " " + files + "\n");
 				
 				try:	 

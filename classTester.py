@@ -25,27 +25,27 @@ def myfind(tweet, word):
 		return -1;
 			
 pricePosVerb = ["decrease","reduce", "reduced", "reduction", "drop", "down", "cheap", "cutter", "less", "low", "slashes", "slashed"];
-priceNegVerb = ["increase", "hike", "raise", "raising"];
-priceAspect = ["rate", "price", "charge", "tariff"];
+priceNegVerb = ["increase", "hike", "raise", "raising", "doubled"];
+priceAspect = ["rate", "price", "pricing","charge", "tariff"];
 
-serviceNegClass1 = ["shittiest", "over"]; #all slangs
+serviceNegClass1 = ["shittiest", "over", "down"]; #all slangs
 serviceNegClass2 = ["down","drop", "dropped", "under", "waiting"];
-serviceNegComb = ["out of coverage","too much interrupt", "recharge not successful", "not connecting", "no internet connection", "no service"];
+serviceNegComb = ["out of coverage","out of range","too much interrupt", "recharge not successful", "not connecting", "no internet connection", "no service"];
 
 servicePosClass1 = ["exclusive", "late", "cheap", "free"]; #all positive
 servicePosClass2 = ["back","up", ";/", "working", "launch", "launched", "hack", "hacked"];
 servicePosComb = ["no interrupt", "recharge successful", "free sms alert"];
 
-serviceAspect = ["network","speed","call","3g","2g","4g","gprs","internet","mobile net", "download", "downloaded", "downloading", "coverage","browse","msg","sms","message","delivery","recharge","bill","billing"]; 
+serviceAspect = ["network","speed","call","3g","2g","4g","gprs","internet","net", "download", "downloaded", "downloading", "coverage","browse","msg","sms","message","delivery","recharge","bill","billing"]; 
 #billing (piling bill), better, download
 
-miscPos = ["waive","waiving","hive","hiving","bailout","launch","success","bid","implement","discount","offer"];
+miscPos = ["waive","waiving","hive","hiving","bailout","launch","success","bid","implement","discount","offer","bsnl right now"];
 miscNeg = ["corruption"];
 miscPosClass1 = ["new", "revise", "revised"];
 miscPosClass2 = ["opened", "voucher", "revised"];
-miscNegClass1 = ["down", "struggling"];
+miscNegClass1 = ["down", "struggling", "problem in"];
 miscNegClass2 = ["down", "hacked", "breached"];
-miscAspect    = ["customer service centre", "customer care", "service provider", "website", "web site", "tariff", "plan", "pack", "package"];
+miscAspect    = ["customer service centre", "customer care", "service provider", "website", "web site", "tariff", "plan", "pack", "package", "server"];
 miscPosComb = ["special tariff vouchers", "sent from aircel update", "dishtv aircel", "extra talk time", "unique internet plan", "full talk value", "joined force", "fixed the network"];
 miscNegComb = ["server hacked"];
 
@@ -53,7 +53,7 @@ satisfactionAspect = ["change","changed","port","ported","activated","churned"];
 satisfactionPosC1 = ["to","too"];
 satisfactionNegC1 = ["from"];
 
-satisfactionPosComb = ["zindabad","start using", "back up service", "backup service"]; #backup service jahan bhi use hota hai is it positive?
+satisfactionPosComb = ["zindabad","start using", "back up service", "backup service", "bsnl sim activated"]; #backup service jahan bhi use hota hai is it positive?
 satisfactionNegComb = ["never opt for"];
 
 neutral = ["dialup", "wire", "landline", "PWD"];
@@ -107,6 +107,7 @@ def bigramTester(tweet, aspectList, aspect, posWordsB, negWordsB, posWordsA, neg
 				pos1 = tweet.find(word1);
 				#Verb occurs before adverb
 				if pos2 > pos1 and pos1 != -1 and ( tweet[pos1-1]==' ' or pos1 == 0) and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.' ): 
+					print word1
 					if isNeg == []: #Negation does not occur in the tweet
 						print word1;
 						positive_score += 1;
@@ -130,6 +131,7 @@ def bigramTester(tweet, aspectList, aspect, posWordsB, negWordsB, posWordsA, neg
 				#Verb occurs after adverb
 				if pos2 < pos1 and tweet[pos1-1]==' ' and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.'):
 					if isNeg == []: #Negation does not occur in the tweet
+						#~ print word1+" "+word2;
 						positive_score += 1;
 					else:
 						negative_score += 1;
@@ -205,6 +207,7 @@ def trigramTester(tweet, aspect, satisfactionAspect, satisfactionPosC1, satisfac
 def classifier(tweet, service_provider):
 	positive_score = 0;		negative_score=0;		neutral_score=0;
 	isPrice=0;		isService=0;		isSatis=0;		isMisc=0;
+		
 	isNeg = [ x for x in negation if myfind(tweet,x) != -1];
 	all_service_provider = ["bsnl", "mtnl", "aircel", "airtel", "vodafone", "idea", "docommo", "docomo", "indicom", "MTS", "virgin", "reliance", "uninor", "loop", "videocon"];
 	other_service_provid = [x for x in all_service_provider if x != service_provider.lower()];
@@ -239,6 +242,6 @@ def classifier(tweet, service_provider):
 		
 	return positive_score, negative_score, neutral_score, isPrice, isService, isSatis, isMisc
 
-str1 = "http //tco/3fc4ns0dv2 bsnl 3g data plan revised stop all 2g plan s aug 2013 update s http //tco/qgdmz6hb5a "
+str1 = "well save that money till airtel launches 4g in chennai or go for bsnl wimax"
 positive_score, negative_score, neutral_score, isPrice, isService, isSatis, isMisc = classifier(str1,"bsnl");
 print str(positive_score) + " " + str(negative_score) + " " + str(neutral_score) + " " + str(isPrice) + " " + str(isService) + " " + str(isSatis) + " " + str(isMisc)
