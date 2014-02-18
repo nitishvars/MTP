@@ -22,5 +22,4 @@ classifier.py
 		negative-words.txt
 
 Major chages done :
-1) If a tweet contains two negative words then with 86%* probability tweet is found to be positive only, which is in contradiction with Maya mam's paper (Language model).
-* 4000+ tweets are found to be having atleast two negative words, out of them we manually annotated randomly selected 100 tweets. 86 of them are found to be negative, 8 of them are found to be positive and rest we are not be able to classify as positive or negative.
+1) 
