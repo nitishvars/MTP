@@ -1,0 +1,1 @@
+document.write('<script type=\"text/javascript\" src=\"http://banners.globaleventslist.elsevier.com/advert.js?t=vert&issn=09574174&sz=180x150,272x450,250x300,270x450,250x250&pg=article&pos=right&sid=1032209&aid=273114064&cmp=Comp+Sci+Jnls\"><\/script>');document.write('');

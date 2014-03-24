@@ -1,0 +1,170 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Extensions Style Sheet - Add all CSS to customize specific extension for this theme here
+ */
+
+body#popup { background:#FFF; padding:0px; margin:0px;
+font-family:Arial, Helvetica, sans-serif;
+	color:#6e6e6e /*#828285*/;
+	font-size:12px;
+	line-height:18px;}
+	p.formRed { padding-left:160px;}
+#componentwrapper { background:#fff; border:0px solid #d6d6d6; }
+p{ margin: 12px;}
+#componentwrapper form > h2:first-child { background:#000}
+/** reCaptach** */
+
+.recaptcha_image_cell {
+	width:150px !important
+}
+
+.recaptchatable #recaptcha_response_field {
+	width:275px !important;
+	border:1px solid #CCCCCC !important;
+	margin:0px -50px 0px -7px !important
+}
+#recaptcha_logo, #recaptcha_tagline {
+	display:none !important
+}
+.recaptchatable .recaptcha_image_cell center img, .recaptchatable #recaptcha_image {
+	max-width: 250px !important;
+}
+.recaptchatable #recaptcha_image {
+	margin:-7px -7px 0px -7px !important
+}
+#recaptcha_table {
+	border:0px !important;
+	margin:-7px;
+}
+#recaptcha_reload_btn {
+	margin-top: -7px;
+}
+#recaptcha_widget_div { margin-bottom:-5px !important;}
+#recaptcha_privacy.recaptcha_only_if_privacy { display:none !important}
+	
+/** contact us page **/
+
+#contact .wk-slideshow .slides, .wk-slideshow .nav {
+	margin-bottom:0px;
+	color:#fff
+}
+#contact .wk-slideshow-tabsbar .nav li {
+	border-right:0px;
+	border-left:1px solid #fff
+}
+#contact .wk-slideshow-tabsbar .nav li.active {
+	background:#D9391F
+}
+#contact .wk-slideshow-tabsbar .nav li:hover, #contact .wk-slideshow-tabsbar .nav li:hover span {
+	background:#D9391F
+}
+#contact .wk-slideshow-tabsbar .nav-container {
+	border:0px;
+	background:#595758;
+	border-radius:0px 0px 0 0;
+	box-shadow:0 0px 0 #fff inset;
+	text-shadow:0 0px 0 #fff
+}
+#contact .wk-slideshow-tabsbar .nav-left li:hover:first-child, #contact .wk-slideshow-tabsbar .nav-left li:active:first-child, #contact .wk-slideshow-tabsbar .nav-left li.active:first-child {
+	border-top-left-radius:0px;
+	border-left:0px solid #fff
+}
+#contact .wk-content h2 {
+	display:none
+}
+#contact .wk-slideshow-tabsbar .nav li.active {
+	padding-bottom:0px;
+}
+#contact .wk-slideshow-tabsbar .nav li:hover {
+	background:#D9391F
+}
+#contact .wk-slideshow-tabsbar .nav span {
+	margin-right: 0px;
+	padding: 5px 15px 5px 15px;
+	border-right: 0px solid white;
+	overflow: hidden;
+}
+#contact .wk-slideshow-tabsbar .slides-container {
+	border:0px;
+}
+#contact .wk-slideshow-tabsbar .slides > li > article {
+	padding:15px 0px 15px 0px;
+}
+#contact .formResponsive .formHorizontal .formControlLabel {
+	color:#6e6e6e
+}
+
+/** widget kit **/
+
+.wk-slideshow-tabsbar .nav li { margin-bottom:0px; font-size:14px !important}
+
+@media (max-width: 767px) {
+.wk-slideshow-tabsbar .nav span {
+padding-left:15px;
+padding-right:15px;
+font-size:14px;
+line-height:20px
+}
+}
+
+/** rsforms **/
+
+.red { color:#D9391F}
+
+
+@media screen and (max-width: 650px) {
+  .formResponsive .formHorizontal input[type="checkbox"],
+  .formResponsive .formHorizontal input[type="radio"] {
+    border: 1px solid #ccc;
+  }
+  .formResponsive .formHorizontal .rsform-block {
+    float: left;
+    width: auto;
+    padding-top: 0;
+    text-align: left;
+	margin-bottom:5px;
+  }
+  .formResponsive .formHorizontal .formControls {
+    margin-left: 160px;
+  }
+ 
+  .formResponsive input[type="text"],
+  .formResponsive input[type="password"],
+  .formResponsive textarea{
+	width: 350px !important;
+  }
+  .formResponsive select {
+	width: 360px !important;
+  }
+  .formResponsive .formHorizontal .formControlLabel {
+	float: left;
+    width: 155px;
+    padding-top: 5px;
+    text-align: right;
+  }
+}
+
+/** componenet style **/
+.componentheading { display:none}
+
+h1{ font-family:'HelveticaNeueW01-45Ligh';  color:#D9391F } 
+h1.title,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family:'Helvetica W01 Light' , helvetica, arial; color:#D9391F; margin:0px }
+
+#content h1 { font-family:'Helvetica W01 Light' , helvetica, arial;  color:#D9391F ; margin:0px}
+
+#componentwrapper form > h2:first-child, div.fspace { background:#D9391F; font-size:16px; font-weight:normal; color:#fff; line-height:24px; padding:3px 10px; margin-bottom:25px;}
+#componentwrapper form  fieldset.formHorizontal.formContainer { padding:0px 10px;}
+p.edit { display:none !important}
+
+.formResponsive .formHorizontal .rsform-block-mandatory { padding:5px 0px}
+.formsmall { max-width:365px !important;}
+
+form[action="http://beta.manthansystems.com/en/component/rsform/form/3-contact-us?tmpl=component&theme=yoo_nano&pagesrc=inframe"] h2.isframe:first-child { display:none}
+
+ .formResponsive .survery .formHorizontal .formControlLabel { font-family:'HelveticaNeueW02-55Roma', helvetica, arial;  color:#D9391F ;}

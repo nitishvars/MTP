@@ -1805,8 +1805,8 @@ thrillingly
 thrills
 thrive
 thriving
-thumb-up
-thumbs-up
+thumbup
+thumbsup
 tickle
 tidy
 time-honored

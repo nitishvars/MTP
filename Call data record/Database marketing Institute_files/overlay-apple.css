@@ -1,0 +1,37 @@
+/* the overlayed element */
+.apple_overlay {
+
+    /* initially overlay is hidden */
+    display:none;
+    /*
+      width after the growing animation finishes
+      height is automatically calculated
+      */
+    width:640px;
+
+    /* some padding to layout nested elements nicely  */
+    padding:35px;
+
+    /* a little styling */
+    font-size:11px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+    background-image:url(close.png);
+    position:absolute; right:5px; top:5px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+.registration_block{width:100%;float:none;display:block;font-family:Arial, Helvetica, sans-serif;font-size:12px;margin-bottom:5px; height:35px;}
+.registration_text{width:170px;text-align:right;float:left;padding-right:10px;}
+.registration_field{margin-left:130px;text-align:left;float:none}
+.registration_field .txtbox{font-family:Arial, Helvetica, sans-serif;font-size:12px;width:200px}
+
+.registration_block13{width:100%;float:none;display:block;font-family:Arial, Helvetica, sans-serif;font-size:13px;margin-bottom:5px}
+.registration_text13{width:120px;text-align:right;float:left;line-height:20px}
+.registration_field13{margin-left:130px;text-align:left;float:none}
+.registration_field13 .txtbox{font-family:Arial, Helvetica, sans-serif;font-size:13px;width:200px}
+

@@ -1,9 +1,10 @@
 MTP
 ===
 
-Major Project Code
+This folder contains all the scripts necessary to mine most pertaining churning factor in Telecommunication.
 
-twitter3.py
+Files and Folders:
+1) twitter3.py
 	Program to grab data from twitter, social media website and write it in unstrucred files
 	Removes all tweets in list = ['broadband', 'modem', 'landline', 'penta', 'tablet', 'TTA', 'Examination', 'Question', 'Paper', 'Data Card',"japan", "japan's", "NTT", "lte"]
 nlp.py

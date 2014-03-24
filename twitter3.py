@@ -20,7 +20,7 @@ for curdate in range(0,len(date)-1):
 
 	#Define global variables
 	service_url = 'http://otter.topsy.com/search.json'
-	query='bsnl'
+	query='vodafone'
 	apikey='09C43A9B270A470B8EB8F2946A9369F3' #Otter its own API key
 	proxies = {'http': 'http://10.10.78.62:3128'}
 	i=1

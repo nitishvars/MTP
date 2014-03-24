@@ -1,0 +1,65 @@
+/* Slide in Box */
+.light .pwebbox_box {
+	background-color: #F4F6F7;
+	color: #333;
+}
+/* Container of Slide in Box or Lightbox Window */
+.light .pwebbox_container {
+	background-color: #fff;
+	color: #000;
+}
+/* Container of Slide in Box */
+.light.pwebbox .pwebbox_container {
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;
+}
+/* Lightbox Window */
+.light.pwebBoxWindow {
+	background-color: #fff;
+}
+/* Toggler tab */
+.light .pwebbox_toggler {
+	/*background-color: #F4F6F7;*/
+	color: #333;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	
+	/*background-image: -moz-linear-gradient(top,#fff,#F4F6F7);
+	background-image: -ms-linear-gradient(top,#fff, #F4F6F7);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#F4F6F7));
+	background-image: -webkit-linear-gradient(top,#fff,#F4F6F7);
+	background-image: -o-linear-gradient(top,#fff,#F4F6F7);
+	background-image: linear-gradient(to bottom,#fff,#F4F6F7);
+	-pie-background: linear-gradient(top,#fff,#F4F6F7);*/
+}
+.light.pwebbox-top .pwebbox_toggler {
+	background-image: -moz-linear-gradient(bottom,#fff,#F4F6F7);
+	background-image: -ms-linear-gradient(bottom,#fff, #F4F6F7);
+	background-image: -webkit-gradient(linear,0 100%,0 0,from(#fff),to(#F4F6F7));
+	background-image: -webkit-linear-gradient(bottom,#fff,#F4F6F7);
+	background-image: -o-linear-gradient(bottom,#fff,#F4F6F7);
+	background-image: linear-gradient(to top,#fff,#F4F6F7);
+	-pie-background: linear-gradient(bottom,#fff,#F4F6F7);
+}
+.light.pwebbox-vertical.pwebbox-left .pwebbox_toggler {
+	background-image: -moz-linear-gradient(right,#fff,#F4F6F7);
+	background-image: -ms-linear-gradient(right,#fff, #F4F6F7);
+	background-image: -webkit-gradient(linear,100% 0,0 0,from(#fff),to(#F4F6F7));
+	background-image: -webkit-linear-gradient(right,#fff,#F4F6F7);
+	background-image: -o-linear-gradient(right,#fff,#F4F6F7);
+	background-image: linear-gradient(to left,#fff,#F4F6F7);
+	-pie-background: linear-gradient(right,#fff,#F4F6F7);
+}
+.light.pwebbox-vertical.pwebbox-right .pwebbox_toggler {
+	background-image: -moz-linear-gradient(left,#fff,#F4F6F7);
+	background-image: -ms-linear-gradient(left,#fff, #F4F6F7);
+	background-image: -webkit-gradient(linear,0 0,100% 0,from(#fff),to(#F4F6F7));
+	background-image: -webkit-linear-gradient(left,#fff,#F4F6F7);
+	background-image: -o-linear-gradient(left,#fff,#F4F6F7);
+	background-image: linear-gradient(to right,#fff,#F4F6F7);
+	-pie-background: linear-gradient(left,#fff,#F4F6F7);
+}
+.light .pwebbox_toggler:hover {
+	background-image: none !important;
+	-pie-background: none !important;
+}

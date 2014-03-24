@@ -1,0 +1,204 @@
+﻿.eed-ad, .eed-ad div {
+    font-family: verdana, helvetica, sans-serif !important;
+    font-size: 11px !important;
+    text-align: left !important;
+}
+    .eed-ad img {
+        border: 0;
+    }
+    
+    .eed-ad .orange {
+        color: #fc7400;
+    }
+
+.eed-ad-horiz {
+    width: 960px;
+    /*height: 90px;*/
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    /*position: relative;*/
+}
+    .eed-ad-horiz .eed-ad-bar {
+        background: #fc7400;
+        width: 4px;
+        height: 90px;
+        float: left;
+    }
+    .eed-ad-horiz a.eed-ad-btn-header {
+        background: #ebebeb url('grey-arrow-right.gif') no-repeat right;
+        width: 150px;
+        height: 90px;
+        display: block;
+        float: left;
+        font-size: 1.2em;
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+        text-transform: uppercase;
+    }
+        .eed-ad-horiz a.eed-ad-btn-header .eed-ad-span-header {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            width: 115px;
+        }
+    .eed-ad-horiz a.eed-ad-btn-more {
+        width: 114px;
+        height: 90px;
+        display: block;
+        float: right;
+        background: #00779d url('blue-arrow-right.gif') no-repeat 0 0;
+        color: #ffffff;
+        position: relative;
+        text-decoration: none;
+        text-align: right;
+    }
+        .eed-ad-horiz a.eed-ad-btn-more span {
+            position: absolute;
+            bottom: 15px;
+            right: 10px;
+            text-align: right;
+        }
+    .eed-ad-horiz .eed-ad-events {
+        width: 692px;
+        height: 88px;
+        border-top: 1px solid #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+        float: left;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .eed-ad-horiz .eed-ad-events li {
+            border-right: 1px solid #ebebeb;
+            width: 230px;
+            height: 88px;
+            overflow: hidden;
+            float: left;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        .eed-ad-horiz .eed-ad-events li.last {
+            border-right: none;
+        }
+        .eed-ad-horiz .eed-ad-events a.eed-ad-logo {
+            width: 60px;
+            float: left;
+            padding: 6px 0 6px 6px;
+        }
+        .eed-ad-horiz .eed-ad-events a.eed-ad-logo img {
+            width: 60px;
+        }
+        .eed-ad-horiz .eed-ad-events .eed-ad-details {
+            width: 152px;
+            padding: 6px;
+            float: left;
+            line-height: 1.4em;
+        }
+        .eed-ad-horiz .eed-ad-events .eed-ad-details-large {
+            width: 218px;
+            padding: 6px;
+        }
+            .eed-ad-horiz .eed-ad-events .eed-ad-details a.eed-ad-title {
+                color: #00769C;
+                display: block;
+                text-decoration: none;
+            }
+            .eed-ad-horiz .eed-ad-events .eed-ad-details .eed-ad-detail {
+                display: block;
+                margin-top: 2px;
+            }
+        .eed-ad-horiz .eed-ad-power {
+            text-align: right;
+            clear: both;
+            display: block;
+            padding-top: 10px;
+            color: #818084;
+            text-decoration: none;
+        }
+            .eed-ad-horiz .eed-ad-power .logo-type {
+                text-transform: uppercase;
+            }
+
+.eed-ad-vert {
+    border-top: 0;
+    border-bottom: 0;
+}
+    .eed-ad-vert .eed-ad-bar {
+        background: #fc7400;
+        height: 4px;
+        display: none;
+        overflow: hidden;
+    }
+    .eed-ad-vert a.eed-ad-btn-header {
+        border-top: 4px solid #fc7400;
+        background: #ebebeb;
+        color: #000000;
+        display: block;
+        padding: 11px;
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    .eed-ad-vert a.eed-ad-btn-more {
+        background: #fff;
+        border: 1px solid #ebebeb;
+        border-bottom: 4px solid #00769C;
+        display: block;
+        padding: 10px;
+        color: #00769C;
+        text-decoration: none;
+        text-align: right;
+    }
+    .eed-ad-vert .eed-ad-events {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border: 1px solid #ebebeb;
+        border-bottom: 0;
+    }
+        .eed-ad-vert .eed-ad-events li {
+            border-top: 1px solid #ebebeb;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        .eed-ad-vert .eed-ad-events a.eed-ad-logo {
+            width: 60px;
+            padding: 10px 0 10px 10px;
+            float: left;
+        }
+        .eed-ad-vert .eed-ad-events a.eed-ad-logo img {
+            width: 60px;
+        }
+        .eed-ad-vert .eed-ad-events .eed-ad-details {
+            padding: 10px;
+            line-height: 1.4em;
+        }
+            .eed-ad-vert .eed-ad-events .eed-ad-details a.eed-ad-title {
+                color: #00769C;
+                display: block;
+                text-decoration: none;
+            }
+            .eed-ad-vert .eed-ad-events .eed-ad-details .eed-ad-detail {
+                display: block;
+                margin-top: 4px;
+            }
+        .eed-ad-vert .eed-ad-power {
+            clear: both;
+            display: block;
+            padding-top: 10px;
+            color: #818084;
+            text-decoration: none;
+        }
+            .eed-ad-vert .eed-ad-power .logo-type {
+                text-transform: uppercase;
+            }
+
+
+/* Added to correct SD skyscraper CSS */
+#skyscraper div.eed-ad-vert { width: 160px; }
+#skyscraper div.eed-ad-vert div{ width: auto; }

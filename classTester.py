@@ -24,37 +24,37 @@ def myfind(tweet, word):
 	else:
 		return -1;
 			
-pricePosVerb = ["decrease","reduce", "reduced", "reduction", "drop", "down", "cheap", "cutter", "less", "low","lowest","slashes", "slashed"];
+pricePosVerb = ["decrease","reduce", "reduced", "reduction", "drop", "down", "cheap", "cutter", "less", "low", "slashes", "slashed"];
 priceNegVerb = ["increase", "hike", "raise", "raising", "doubled"];
 priceAspect = ["rate", "price", "pricing","charge", "tariff"];
 
-serviceNegClass1 = ["shittiest", "over", "down","low"]; #all slangs
+serviceNegClass1 = ["shittiest", "over", "down"]; #all slangs
 serviceNegClass2 = ["down","drop", "dropped", "under", "waiting"];
-serviceNegComb = ["out of coverage","out of range","too much interrupt", "recharge not successful", "not connect","not connecting", "no internet connection", "no service"];
+serviceNegComb = ["out of coverage","out of range","too much interrupt", "recharge not successful", "not connecting", "no internet connection", "no service"];
 
-servicePosClass1 = ["exclusive", "late", "cheap", "free", "activate","activated", "activating"]; #all positive
+servicePosClass1 = ["exclusive", "late", "cheap", "free"]; #all positive
 servicePosClass2 = ["back","up", ";/", "working", "launch", "launched", "hack", "hacked"];
 servicePosComb = ["no interrupt", "recharge successful", "free sms alert"];
 
-serviceAspect = ["network","speed","call","3g","2g","4g","data pack","gprs","internet","net", "download", "downloaded", "downloading", "coverage","browse","msg","sms","message","delivery","recharge","bill","billing"]; 
+serviceAspect = ["network","speed","call","3g","2g","4g","gprs","internet","net", "download", "downloaded", "downloading", "coverage","browse","msg","sms","message","delivery","recharge","bill","billing"]; 
 #billing (piling bill), better, download
 
-miscPos = ["waive","waiving","hive","hiving","bailout","launch","success","bid","implement","discount","bsnl right now"];
+miscPos = ["waive","waiving","hive","hiving","bailout","launch","success","bid","implement","discount","offer","bsnl right now"];
 miscNeg = ["corruption"];
-miscPosClass1 = ["new", "revise", "revised","free"];
+miscPosClass1 = ["new", "revise", "revised"];
 miscPosClass2 = ["opened", "voucher", "revised"];
 miscNegClass1 = ["down", "struggling", "problem in"];
 miscNegClass2 = ["down", "hacked", "breached"];
-miscAspect    = ["customer service centre","customer care","offer","service provider", "website", "web site", "tariff", "plan", "pack", "package", "server"];
+miscAspect    = ["customer service centre", "customer care", "service provider", "website", "web site", "tariff", "plan", "pack", "package", "server"];
 miscPosComb = ["special tariff vouchers", "sent from aircel update", "dishtv aircel", "extra talk time", "unique internet plan", "full talk value", "joined force", "fixed the network"];
 miscNegComb = ["server hacked"];
 
-satisfactionAspect = ["change","changed","changing","port","ported","porting","activated","churning","churned","switch","switched","switching", "mnped"];
+satisfactionAspect = ["change","changed","port","ported","activated","churned"];
 satisfactionPosC1 = ["to","too"];
 satisfactionNegC1 = ["from"];
 
 satisfactionPosComb = ["zindabad","start using", "back up service", "backup service", "bsnl sim activated"]; #backup service jahan bhi use hota hai is it positive?
-satisfactionNegComb = ["never opt for", "time to port"];
+satisfactionNegComb = ["never opt for"];
 
 neutral = ["dialup", "wire", "landline", "PWD"];
 
@@ -64,8 +64,7 @@ negation += ["isn t", "amn t", "aren t", "wasn t", "weren t", "hasn t", "haven t
 POSWORDS = mywords("positive-words.txt")
 NEGWORDS = mywords("negative-words.txt")
 
-negWithRegExp = open('negWithRegExp.txt','a+');
-trigramNegNeg = open('trigramNegNeg.txt','a+');
+negneg = 0;
 
 def synset(word_list):
 	wordset = collections.defaultdict(lambda: 1)
@@ -81,19 +80,17 @@ def unigramTester(tweet, aspect, positiveWords, negativeWords, isNeg):
 	
 	for word in positiveWords:
 		word = plmtzr.lemmatize(word); #Stemming the word
-		if myfind(tweet,word) != -1:
+		pos = tweet.find(word);
+		if pos != -1 and (tweet[pos-1]==' ' or pos == 0) and ( len(tweet)==pos+len(word) or tweet[pos+len(word)] == ' ' or tweet[pos+len(word)] == '.' ):
 			aspect +=1;
 			positive_score += 1;
-			if isNeg != []:
-				negWithRegExp.write(word+"\t"+tweet+"\n");
 			
 	for word in negativeWords:
 		word = plmtzr.lemmatize(word); #Stemming the word
-		if myfind(tweet,word) != -1:
+		pos = tweet.find(word);
+		if pos != -1 and (tweet[pos-1]==' ' or pos == 0) and ( len(tweet)==pos+len(word) or tweet[pos+len(word)] == ' ' or tweet[pos+len(word)] == '.' ):
 			aspect +=1;
 			negative_score+=1;
-			#~ if isNeg != []:
-				#~ negWithRegExp.write(word+"\t"+tweet+"\n");
 	return aspect, positive_score, negative_score
 	
 def bigramTester(tweet, aspectList, aspect, posWordsB, negWordsB, posWordsA, negWordsA, isNeg):
@@ -103,38 +100,38 @@ def bigramTester(tweet, aspectList, aspect, posWordsB, negWordsB, posWordsA, neg
 	
 	for word2 in aspectList:
 		word2 = plmtzr.lemmatize(word2); #Stemming the word
-		pos2 = myfind(tweet,word2);
-		if pos2 != -1:
+		pos2 = tweet.find(word2);
+		if pos2 != -1 and (tweet[pos2-1]==' ' or pos2 == 0) and (len(tweet)==pos2+len(word2) or tweet[pos2+len(word2)] == ' ' or tweet[pos2+len(word2)] == '.' ):
 			aspect += 1; #tweet talks about service aspect
 			
 			for word1 in posWordsB:
 				word1 = plmtzr.lemmatize(word1); #Stemming the word
-				pos1  = myfind(tweet,word1);
+				pos1 = tweet.find(word1);
 				#Verb occurs before adverb
-				if pos1 != -1 and pos2 > pos1:
-					#~ wordDist = string.count(tweet," ",pos1,pos2);
-					#~ if wordDist <= 3:
+				if pos2 > pos1 and pos1 != -1 and ( tweet[pos1-1]==' ' or pos1 == 0) and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.' ): 
+					print word1
 					if isNeg == []: #Negation does not occur in the tweet
+						print word1;
 						positive_score += 1;
 					else:
 						negative_score += 1;
 						
 			for word1 in negWordsB:
 				word1 = plmtzr.lemmatize(word1); #Stemming the word
-				pos1  = myfind(tweet,word1);
+				pos1 = tweet.find(word1);
 				#Verb occurs before adverb
-				if pos1 != -1 and pos2 > pos1:
-					#~ if isNeg == []: #Negation does not occur in the tweet
-						#~ print word1;
-					negative_score += 1;
+				if pos2 > pos1 and pos1 != -1 and ( tweet[pos1-1]==' ' or pos1 == 0) and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.'): 
+					if isNeg == []: #Negation does not occur in the tweet
+						print word1;
+						negative_score += 1;
 					#~ else:
 						#~ positive_score += 1;
 			
 			for word1 in posWordsA:
 				word1 = plmtzr.lemmatize(word1); #Stemming the word
-				pos1  = myfind(tweet,word1);
+				pos1 = tweet.find(word1);
 				#Verb occurs after adverb
-				if pos1 != -1 and pos2 < pos1:
+				if pos2 < pos1 and tweet[pos1-1]==' ' and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.'):
 					if isNeg == []: #Negation does not occur in the tweet
 						#~ print word1+" "+word2;
 						positive_score += 1;
@@ -143,12 +140,12 @@ def bigramTester(tweet, aspectList, aspect, posWordsB, negWordsB, posWordsA, neg
 						
 			for word1 in negWordsA:
 				word1 = plmtzr.lemmatize(word1); #Stemming the word
-				pos1  = myfind(tweet,word1);
+				pos1 = tweet.find(word1);
 				#Verb occurs after adverb
-				if pos1 != -1 and pos2 < pos1:
-					#~ if isNeg == []: #Negation does not occur in the tweet
-						#~ print word1;
-					negative_score += 1;
+				if pos2 < pos1 and tweet[pos1-1]==' ' and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.'):
+					if isNeg == []: #Negation does not occur in the tweet
+						print word1;
+						negative_score += 1;
 					#~ else:
 						#~ positive_score += 1;		
 							
@@ -159,19 +156,19 @@ def trigramTester(tweet, aspect, satisfactionAspect, satisfactionPosC1, satisfac
 	
 	for word1 in satisfactionAspect:
 		word1 = plmtzr.lemmatize(word1); #Stemming the word
-		pos1  = myfind(tweet,word1);
+		pos1  = tweet.find(word1);
 		
-		if pos1 != -1:
+		if pos1 != -1 and (tweet[pos1-1]==' ' or pos1 == 0) and ( len(tweet)==pos1+len(word1) or tweet[pos1+len(word1)] == ' ' or tweet[pos1+len(word1)] == '.'):
 			aspect += 1; #tweet talks about satisfaction aspect
 			
 			for word2 in satisfactionPosC1:
 				word2 = plmtzr.lemmatize(word2); #Stemming the word
-				pos2 = myfind(tweet,word2);
-				if pos2 != -1 and pos2 > pos1:
+				pos2  = tweet.find(word2);
+				if pos2 > pos1 and tweet[pos2-1]==' ' and ( len(tweet)==pos2+len(word2) or tweet[pos2+len(word2)] == ' ' or tweet[pos2+len(word2)] == '.'):
 					for word3 in service_provider:
 						word3 = plmtzr.lemmatize(word3); #Stemming the word
-						pos3  = myfind(tweet,word3);
-						if pos3 != -1 and pos3 > pos2:
+						pos3  = tweet.find(word3);
+						if pos3 > pos2 and tweet[pos3-1]==' ' and ( len(tweet)==pos3+len(word3) or tweet[pos3+len(word3)] == ' ' or tweet[pos3+len(word3)] == '.'):
 							if isNeg == []: #Negation does not occur in the tweet
 								positive_score += 1;
 							else:
@@ -179,8 +176,8 @@ def trigramTester(tweet, aspect, satisfactionAspect, satisfactionPosC1, satisfac
 								
 					for word3 in other_service_provider:
 						word3 = plmtzr.lemmatize(word3); #Stemming the word
-						pos3  = myfind(tweet,word3);
-						if pos3 != -1 and pos3 > pos2:
+						pos3  = tweet.find(word3);
+						if pos3 > pos2 and tweet[pos3-1]==' ' and ( len(tweet)==pos3+len(word3) or tweet[pos3+len(word3)] == ' ' or tweet[pos3+len(word3)] == '.'):
 							if isNeg == []: #Negation does not occur in the tweet
 								negative_score += 1;
 							else:
@@ -188,33 +185,33 @@ def trigramTester(tweet, aspect, satisfactionAspect, satisfactionPosC1, satisfac
 										
 			for word2 in satisfactionNegC1:
 				word2 = plmtzr.lemmatize(word2); #Stemming the word
-				pos2  = myfind(tweet,word2);
-				if pos2 != -1 and pos2 > pos1:
+				pos2  = tweet.find(word2);
+				if pos2 > pos1 and tweet[pos2-1]==' ' and ( len(tweet)==pos2+len(word2) or tweet[pos2+len(word2)] == ' ' or tweet[pos2+len(word2)] == '.'):
 					for word3 in service_provider:
 						word3 = plmtzr.lemmatize(word3); #Stemming the word
-						pos3  = myfind(tweet,word3);
-						if pos3 != -1 and pos3 > pos2:
+						pos3  = tweet.find(word3);
+						if pos3 > pos2 and tweet[pos3-1]==' ' and ( len(tweet)==pos3+len(word3) or tweet[pos3+len(word3)] == ' ' or tweet[pos3+len(word3)] == '.'):
 							if isNeg == -1: #Negation does not occur in the tweet
 								negative_score += 1;
 							else:
 								positive_score += 1;
-								trigramNegNeg.write("p\t"+tweet+"\n");
 					
 					for word3 in other_service_provider:
 						word3 = plmtzr.lemmatize(word3); #Stemming the word
-						pos3  = myfind(tweet,word3);
-						if pos3 != -1 and pos3 > pos2:
+						pos3  = tweet.find(word3);
+						if pos3 > pos2 and tweet[pos3-1]==' ' and ( len(tweet)==pos3+len(word3) or tweet[pos3+len(word3)] == ' ' or tweet[pos3+len(word3)] == '.'):
 							if isNeg == -1: #Negation does not occur in the tweet
 								positive_score += 1;
 							else:
 								negative_score += 1;			
-								trigramNegNeg.write("n\t"+tweet+"\n");
 	return aspect, positive_score, negative_score													
 							
 def classifier(tweet, service_provider):
 	positive_score = 0;		negative_score=0;		neutral_score=0;
 	isPrice=0;		isService=0;		isSatis=0;		isMisc=0;
-		
+	
+	negneg = 0; #Remove
+	
 	isNeg = [ x for x in negation if myfind(tweet,x) != -1];
 	all_service_provider = ["bsnl", "mtnl", "aircel", "airtel", "vodafone", "idea", "docommo", "docomo", "indicom", "MTS", "virgin", "reliance", "uninor", "loop", "videocon"];
 	other_service_provid = [x for x in all_service_provider if x != service_provider.lower()];
@@ -245,10 +242,10 @@ def classifier(tweet, service_provider):
 		pos  = tweet.find(word);
 		
 		if pos != -1:
-			neutral_score == 1;	
+			neutral_score += 1;	
 		
 	return positive_score, negative_score, neutral_score, isPrice, isService, isSatis, isMisc
 
-str1 = "bsnl 3g still does not connect will file a complaint later since at rajatkabade got success with complaining"
+str1 = "right at aseem_trivedi bsnl website hacked in support of the hunger strike by seem tried and aloe dixit against the sec of a of it act heard through"
 positive_score, negative_score, neutral_score, isPrice, isService, isSatis, isMisc = classifier(str1,"bsnl");
 print str(positive_score) + " " + str(negative_score) + " " + str(neutral_score) + " " + str(isPrice) + " " + str(isService) + " " + str(isSatis) + " " + str(isMisc)

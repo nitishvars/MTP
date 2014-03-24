@@ -1,5 +1,4 @@
 2:to
-2g
 3g
 aaj
 aajtak
@@ -432,7 +431,6 @@ freesamples
 freshers
 frm:from
 frnds:freinds
-fuc*ed:fuck
 funbook
 funnyabbreviations
 gaali:bad
@@ -496,7 +494,6 @@ harish
 harshinilakshmi
 haryana
 hasn:has
-hasnt:has not
 hathway
 hats
 hav:have
@@ -724,7 +721,6 @@ lootey:theft
 lovin:loving
 lovu:love you
 luv:love
-luvz:love
 luvindia:love india
 lyk:like
 maa
@@ -1126,7 +1122,6 @@ signalling
 signs
 sikri
 sim
-sims
 simcard
 singh
 sirji:sir
@@ -1432,8 +1427,8 @@ writeguy:write guy
 wrkg:working
 wrks:works
 wrld:world
-wtf:what the fuck
-wth:what the hell
+wtf:not
+wth:not
 wud:would
 xnt:not
 xp

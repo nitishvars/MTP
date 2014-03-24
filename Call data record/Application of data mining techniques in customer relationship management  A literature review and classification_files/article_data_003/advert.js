@@ -1,0 +1,21 @@
+(function () {
+
+  function loadStylesheet() {
+    if (!document.getElementById('__eedcss')) {
+      var style = document.createElement('link');
+      style.type = 'text/css';
+      style.rel = 'stylesheet';
+      style.href = 'http://banners.globaleventslist.elsevier.com/advert.css';
+      style.id = '__eedcss';
+      document.getElementsByTagName('head')[0].appendChild(style);
+    }
+  };
+
+  function loadAdvert() {
+    document.write('<div class="eed-ad eed-ad-vert"><div class="eed-ad-bar"></div><a href="http://www.globaleventslist.elsevier.com/events/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright#/disciplineIds=47,43&specialtyIds=184,234,235,303" target="_blank" class="eed-ad-btn-header"><span class="eed-ad-span-header">Events you may be <span style="white-space: nowrap;">interested in</span></span></a><ul class="eed-ad-events"><li class=""><a href="http://www.globaleventslist.elsevier.com/events/2013/09/the-first-international-conference-on-new-horizons-in-basic-and-applied-science/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright" target="_blank" class="eed-ad-logo"><img src="http://admin.globaleventslist.elsevier.com/_uploads/logos/c771fed0653c43a4bb51b49b33373e0b.jpg" alt="" /></a><div class="eed-ad-details"><a href="http://www.globaleventslist.elsevier.com/events/2013/09/the-first-international-conference-on-new-horizons-in-basic-and-applied-science/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright" target="_blank" class="eed-ad-title">The First International Conference on New Horizons in Basic and Applied Science</a><span class="eed-ad-detail">21–23 Sep 2013</span><span class="eed-ad-detail">Hurghada, Egypt</span></div></li><li class=""><div class="eed-ad-details eed-ad-details-large"><a href="http://www.globaleventslist.elsevier.com/events/2013/10/mexican-international-conference-on-computer-science-2013/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright" target="_blank" class="eed-ad-title">Mexican International Conference on Computer Science 2013</a><span class="eed-ad-detail">30 Oct – 1 Nov 2013</span><span class="eed-ad-detail">Morelia, Mexico</span></div></li><li class="last"><div class="eed-ad-details eed-ad-details-large"><a href="http://www.globaleventslist.elsevier.com/events/2013/12/27th-annual-conference-on-neural-information-processing-systems/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright" target="_blank" class="eed-ad-title">27th Annual Conference on Neural Information Processing Systems</a><span class="eed-ad-detail">5–10 Dec 2013</span><span class="eed-ad-detail">Lake Tahoe, United States</span></div></li></ul><a href="http://www.globaleventslist.elsevier.com/events/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright#/disciplineIds=47,43&specialtyIds=184,234,235,303" target="_blank" class="eed-ad-btn-more"><span>More events &raquo;<span></a><a href="http://www.globaleventslist.elsevier.com/events/?utm_medium=banner&utm_term=0957-4174&utm_source=sciencedirect.com&utm_campaign=Comp+Sci+Jnls+1032209%2f273114064+pg%3darticle+sz%3d180x150%2c272x450%2c250x300%2c270x450%2c250x250+pos%3dright#/disciplineIds=47,43&specialtyIds=184,234,235,303" target="_blank" class="eed-ad-power">Powered by <span class="logo-type">Global<span class="orange">Events</span>List</span></a></div><img src="http://banners.globaleventslist.elsevier.com/track.gif?ids=11735,11812,12039" alt="" style="display:none;" />');
+  };
+
+  loadStylesheet();
+  loadAdvert();
+
+})();

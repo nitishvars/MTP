@@ -1,0 +1,3138 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.23)  23 MAR 2014 23:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**llncs.cls
+(./llncs.cls
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `llncs'.
+
+Package: llncs 2013/09/27 v2.18 
+ LaTeX document class for Lecture Notes in Computer Science
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \let\if@e
+              nvcntreset\iffalse
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+! Undefined control sequence.
+l.647  \fi\section
+                  *{\listtablename\@mkboth{{\listtablename}}{{\listtablename}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+l.647  \fi\section*{\listtablename
+                                  \@mkboth{{\listtablename}}{{\listtablename}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Undefined control sequence.
+l.647 ...n*{\listtablename\@mkboth{{\listtablename
+                                                  }}{{\listtablename}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.647 ...@mkboth{{\listtablename}}{{\listtablename
+                                                  }}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--648
+[] 
+ []
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Argument of check@range has an extra }.
+<inserted text> 
+                par 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+*p@ set@simple@size@args @nil <@nnil execute@size@function sizefn@info ETC.
+! Paragraph ended before check@range was complete.
+<to be read again> 
+                   par 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   par 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   par 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Argument of extract@rangefontinfo has an extra }.
+<inserted text> 
+                par 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil 
+! Paragraph ended before extract@rangefontinfo was complete.
+<to be read again> 
+                   par 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' will be
+(Font)              scaled to size 10.0pt on input line 648.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Font OT1/cmr/m/n/10=at10 not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+! Extra fi.
+define@newfont ...@fontshape else extract@font fi 
+                                                  endgroup 
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\pickup@font ...t@name \relax \define@newfont \fi 
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+! Extra \fi.
+\@opcol ... \@outputdblcol \else \@outputpage \fi 
+                                                  \global \@mparbottom \z@ \...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+<output> ...lmade \fi {\@opcol \@startcolumn }\fi 
+                                                  \ifnum \outputpenalty >-\@...
+l.648  \@starttoc{lot}\if@restonecol\twocolumn
+                                              \fi}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+<recently read> \fi 
+                    
+l.648  \@starttoc{lot}\if@restonecol\twocolumn\fi
+                                                 }
+I'm ignoring this; it doesn't match any \if.
+
+! Too many }'s.
+l.648  \@starttoc{lot}\if@restonecol\twocolumn\fi}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.649 \let\l@t
+              able\l@figure
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: \listoffigures undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.651 \renewcommand\listoffigures
+                                 {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \listoftables undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 \renewcommand\listoftables
+                                {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment thebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 \renewenvironment{thebibliography}
+                                        [1]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\@=\count79
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.695 \newcount\@t
+                  empcntc
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+! Use of \@ doesn't match its definition.
+l.732             \let\p@enumiv\@e
+                                  mpty
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+! Too many }'s.
+l.733             \renewcommand\theenumiv{}}
+                                            %
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+
+! LaTeX Error: \newblock undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.735         \renewcommand\newblock
+                                    {\par}%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Use of \@ doesn't match its definition.
+l.740       \sfcode`\.=\@m
+                          }
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.740       \sfcode`\.=\@m}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Too many }'s.
+<recently read> }
+                 
+l.740       \sfcode`\.=\@m}
+                           
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \fi.
+l.748    \fi
+            
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \else.
+l.749 \else
+           
+I'm ignoring this; it doesn't match any \if.
+
+! Use of \@ doesn't match its definition.
+l.750 \@c
+         ons\@openbib@code{\noexpand\small}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.750 \@co
+          ns\@openbib@code{\noexpand\small}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+! Use of \@ doesn't match its definition.
+l.750 \@cons\@o
+               penbib@code{\noexpand\small}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+! Extra \fi.
+l.751 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+
+! LaTeX Error: Environment theindex undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765 \renewenvironment{theindex}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\fnindent=\dimen102
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.811 \renewenvironment{table}
+                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment table* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.816 \renewenvironment{table*}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\c@@inst=\count80
+\c@@auth=\count81
+\c@auco=\count82
+\instindent=\dimen103
+\authrun=\box26
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box27
+\titlerunning=\toks16
+\toctitle=\toks17
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.896 \providecommand*{\toclevel@author}
+                                        {999}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+
+! LaTeX Error: Command \toclevel already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.898 \providecommand*{\toclevel@title}
+                                       {0}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+! LaTeX Error: \maketitle undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.900 \renewcommand\maketitle
+                             {\newpage
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1104 \if
+          @envcntsect
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+! Use of \@ doesn't match its definition.
+\spnewtheorem ->\@i
+                   fstar{\@sthm}{\@Sthm}
+l.1106    \spnewtheorem
+                       {theorem}{Theorem}[section]{\bfseries}{\itshape}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+! Use of \@ doesn't match its definition.
+\spnewtheorem ->\@ifstar{\@s
+                            thm}{\@Sthm}
+l.1106    \spnewtheorem
+                       {theorem}{Theorem}[section]{\bfseries}{\itshape}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no m in font nullfont!
+! Use of \@ doesn't match its definition.
+\spnewtheorem ->\@ifstar{\@sthm}{\@S
+                                    thm}
+l.1106    \spnewtheorem
+                       {theorem}{Theorem}[section]{\bfseries}{\itshape}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Argument of check@range has an extra }.
+<inserted text> 
+                par 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+*p@ set@simple@size@args @nil <@nnil execute@size@function sizefn@info ETC.
+! Paragraph ended before check@range was complete.
+<to be read again> 
+                   par 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   par 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   par 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Argument of extract@rangefontinfo has an extra }.
+<inserted text> 
+                par 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil 
+! Paragraph ended before extract@rangefontinfo was complete.
+<to be read again> 
+                   par 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra }, or forgotten endgroup.
+check@range ...rved@f @empty fi fi fi reserved@f }
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> sizefn@info 
+                       
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+empty@sfcnt ...@empty else @tempdimb optional@arg 
+                                                  @tempdimb #1{Fontspace sha...
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 1106.
+
+! Undefined control sequence.
+empty@sfcnt ... edef external@font {mandatory@arg 
+                                                  space atthe @tempdimb }
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra fi.
+check@single ... else let reserved@f @empty fi fi 
+                                                  reserved@f 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Font OT1/cmr/bx/n/10=at10 not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+! Extra fi.
+define@newfont ...@fontshape else extract@font fi 
+                                                  endgroup 
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\pickup@font ...t@name \relax \define@newfont \fi 
+                                                  
+l.1106 ...rem{theorem}{Theorem}[section]{\bfseries
+                                                  }{\itshape}
+I'm ignoring this; it doesn't match any \if.
+
+
+! LaTeX Error: Missing begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   def 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+! Extra else.
+is@range ...->if >#2expandafter check@single else 
+                                                  expandafter check@range fi 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I'm ignoring this; it doesn't match any \if.
+
+! Argument of check@range has an extra }.
+<inserted text> 
+                par 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+*p@ set@simple@size@args @nil <@nnil execute@size@function sizefn@info ETC.
+! Paragraph ended before check@range was complete.
+<to be read again> 
+                   par 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   par 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   par 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Argument of extract@rangefontinfo has an extra }.
+<inserted text> 
+                par 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil 
+! Paragraph ended before extract@rangefontinfo was complete.
+<to be read again> 
+                   par 
+l.1106 ...m}{Theorem}[section]{\bfseries}{\itshape
+                                                  }
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 102 strings out of 495059
+ 953 string characters out of 3182030
+ 46113 words of memory out of 3000000
+ 3381 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,4n,92p,92b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+!  ==> Fatal error occurred, no output PDF file produced!

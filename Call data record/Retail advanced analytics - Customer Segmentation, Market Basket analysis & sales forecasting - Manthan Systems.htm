@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- base href="http://www.manthansystems.com/now-in-analytics/advanced-analytics" -->
+  <meta name="description" content="Advanced Analytics focuses on applying advanced statistical models that use predictive and descriptive techniques like data mining, clustering etc in decision contexts for key business areas.">
+  <meta name="robots" content="index, follow">
+  <meta name="msvalidate.01" content="D1D5CF568C91C850B3BD3A123B832DD5">
+  <title>Retail advanced analytics - Customer Segmentation, Market Basket analysis &amp; sales forecasting - Manthan Systems</title>
+  <link href="http://www.manthansystems.com/templates/yoo_subway/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/rokbox-style-e6105c26.css" type="text/css">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/calendar-1132bacb.css" type="text/css">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/front-d5e9b1f1.css" type="text/css">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/widgetkit-5fec1ece-ac9af4b5.css" type="text/css">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/pwebbox.css" type="text/css">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/light.css" type="text/css">
+  <link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/modal.css" type="text/css">
+  <script src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/165941.js" id="hs-analytics"></script><script src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/mootools-0fe4a67c.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/caption-d87c08be.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/rokbox-mt1.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/rokbox-config-78379ca9.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/script-dc600ff3.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/jquery-506fd240.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/widgetkit-316c604b-8636d965.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/modal.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/mootools.js"></script>
+  <script type="text/javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/mootools-1.js"></script>
+  <script type="text/javascript">
+var rokboxPath = '/plugins/system/rokbox/';
+window.addEvent("domready", function() {
+	SqueezeBox.initialize({});
+	$$("a.modal").each(function(el) {
+		el.addEvent("click", function(e) {
+			new Event(e).stop();
+			SqueezeBox.fromElement(el);
+		});
+	});
+});
+  </script>
+  
+  <!--[if lte IE 8]>
+<link rel="stylesheet" href="/modules/mod_pwebbox/css/ie.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" href="/modules/mod_pwebbox/css/ie8.css" />
+<![endif]-->
+
+<link rel="apple-touch-icon-precomposed" href="http://www.manthansystems.com/templates/yoo_subway/apple_touch_icon.png">
+<link rel="stylesheet" href="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/template-adb6a4ef.css">
+<script src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/template-df998d87.js"></script>
+
+</head>
+
+<body id="page" class="page sidebar-a-right isblog itemcolor-advana transparency-25 system-white en-gb " data-config="{&quot;twitter&quot;:0,&quot;plusone&quot;:0,&quot;facebook&quot;:0}">
+
+	<div id="page-body">
+
+		<div style="min-height: 797px;" class="page-body-1">
+
+						<div id="absolute">
+				<a href="http://www.manthansystems.com/en/component/rsform/form/126-feedback/contact?tmpl=component&amp;theme=yoo_nano" id="feedback" rel="rokbox[600 452]" class="popupbox">Contact Us</a>
+<!-- PWebBox -->
+<div class="pwebbox-modal pwebbox-static pwebbox-offset-top pwebbox-iframe light pwebbox-horizontal " dir="ltr">
+	<div id="pwebbox436_toggler" class="pwebbox436_toggler pwebbox_toggler"><span class="text"></span><span class="icon"></span></div>
+</div>
+
+
+
+<script type="text/javascript">
+(function(){pwebBox436=new pwebBox({id:"436",position:"static",layout:"modal",openAuto:1,openDelay:30000,modal:{x:546,y:343,overlayOpacity:0.7,iframe:1,classWindow:"light"}})})();</script>
+<!-- PWebBox end -->
+			</div>
+			
+						
+			<div class="wrapper grid-block">
+
+				<header id="header">
+
+					<div id="toolbar" class="grid-block">
+
+													
+												
+					</div>
+
+					<div id="headerbar" class="grid-block">
+					
+							
+						<a id="logo" href="http://www.manthansystems.com/"><img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/logo.png" alt="Manthan" title="Manthan" border="0"></a>
+												
+												
+					</div>
+
+					<div id="menubar" class="grid-block">
+						
+												<nav id="menu"><ul class="menu menu-dropdown"><li class="level1 item1 parent"><a href="http://www.manthansystems.com/" class="level1 parent"><span>Manthan</span></a><div style="display: none; overflow: hidden;" class="dropdown columns1"><div style="overflow: hidden;"><div><div class="dropdown-bg"><div><div class="width100 column"><ul style="min-height: 256px;" class="level2"><li class="level2 item3"><a href="http://www.manthansystems.com/en/manthan/the-manthan-story" class="level2"><span>The Manthan Story &amp; Analytics</span></a></li><li class="level2 item5"><a href="http://www.manthansystems.com/en/manthan/accolades" class="level2"><span>Accolades</span></a></li><li class="level2 item31"><a href="http://www.manthansystems.com/en/manthan/pressreleases" class="level2"><span>News</span></a></li><li class="level2 item4"><a href="http://www.manthansystems.com/en/manthan/events" class="level2"><span>Events</span></a></li><li class="level2 item219"><a href="http://www.manthansystems.com/webinar" class="level2"><span>Webinars</span></a></li><li class="level2 item173"><a href="http://www.manthansystems.com/en/manthan/corporate-media-analystcoverage" class="level2"><span>Media &amp; Analyst</span></a></li><li class="level2 item8"><a href="http://www.manthansystems.com/en/manthan/community-care" class="level2"><span>Community Care</span></a></li><li class="level2 item6"><a href="http://www.manthansystems.com/en/manthan/careers" class="level2"><span>Careers</span></a></li></ul></div></div></div></div></div></div></li><li class="level1 item9 parent"><span class="separator level1 parent"><span>Products</span></span><div style="display: none; overflow: hidden;" class="dropdown columns1"><div style="overflow: hidden;"><div><div class="dropdown-bg"><div><div class="width100 column"><ul style="min-height: 256px;" class="level2"><li class="level2 item10"><a href="http://www.manthansystems.com/en/products/arc-merchandise-analytics" class="level2"><span>ARC Merchandise Analytics</span></a></li><li class="level2 item12"><a href="http://www.manthansystems.com/en/products/arc-customer-analytics" class="level2"><span>ARC Customer Analytics</span></a></li><li class="level2 item197"><a href="http://www.manthansystems.com/en/products/arc-target-one" class="level2"><span>ARC TargetOne</span></a></li><li class="level2 item165"><a href="http://www.manthansystems.com/en/products/arc-vendor-insights" class="level2"><span>ARC Vendor Insights</span></a></li><li class="level2 item166"><a href="http://www.manthansystems.com/en/products/arc-vendor-link" class="level2"><span>ARC Vendor Link</span></a></li><li class="level2 item207"><a href="http://www.manthansystems.com/en/products/arc-demand-signal-repository" class="level2"><span>ARC Demand Signal Repository</span></a></li><li class="level2 item200"><a href="http://www.manthansystems.com/en/products/arc-ecommerce-analytics" class="level2"><span>ARC eCommerce Analytics</span></a></li><li class="level2 item153"><a href="http://www.manthansystems.com/en/products/arc-store-operation" class="level2"><span>ARC Store Operations</span></a></li><li class="level2 item17"><a href="http://www.manthansystems.com/en/products/arc-for-mass-merchandise-retail" class="level2"><span>ARC for Mass Merchandise Retail</span></a></li><li class="level2 item18"><a href="http://www.manthansystems.com/en/products/arc-for-specialty-retail" class="level2"><span>ARC for Specialty Retail</span></a></li><li class="level2 item19"><a href="http://www.manthansystems.com/en/products/arc-for-food-a-grocery-retail" class="level2"><span>ARC for Food &amp; Grocery Retail</span></a></li><li class="level2 item16"><a href="http://www.manthansystems.com/en/products/arc-for-fashion-a-lifestyle-retail" class="level2"><span>ARC for Fashion &amp; Lifestyle retail</span></a></li></ul></div></div></div></div></div></div></li><li class="level1 item27 parent active"><span class="separator level1 parent active"><span>Now in Analytics</span></span><div style="display: none; overflow: hidden;" class="dropdown columns1"><div style="overflow: hidden;"><div><div class="dropdown-bg"><div><div class="width100 column"><ul style="min-height: 416px;" class="level2"><li class="level2 item143"><a href="http://www.manthansystems.com/en/now-in-analytics/manthans-3rdi-next-gen-bi" class="level2"><span>Manthan’s 3rdi – Next Gen BI</span></a></li><li class="level2 item201"><a href="http://www.manthansystems.com/en/now-in-analytics/big-data" class="level2"><span>Big Data</span></a></li><li class="level2 item43 active current"><a href="http://www.manthansystems.com/en/now-in-analytics/advanced-analytics" class="level2 active current"><span>Advanced Analytics</span></a></li><li class="level2 item139"><a href="http://www.manthansystems.com/en/now-in-analytics/touch-analytics" class="level2"><span>Touch Analytics</span></a></li><li class="level2 item28"><a href="http://www.manthansystems.com/en/now-in-analytics/human-engineering" class="level2"><span>Human Engineering</span></a></li><li class="level2 item68"><a href="http://www.manthansystems.com/en/now-in-analytics/performance-management" class="level2"><span>Performance Management</span></a></li><li class="level2 item30"><a href="http://www.manthansystems.com/en/now-in-analytics/scorecards" class="level2"><span>Scorecards &amp; Strategy Map</span></a></li><li class="level2 item29"><a href="http://www.manthansystems.com/en/now-in-analytics/role-based-analytics" class="level2"><span>Role Based Analytics</span></a></li><li class="level2 item49"><a href="http://www.manthansystems.com/en/now-in-analytics/guided-analytics" class="level2"><span>Guided Analytics</span></a></li><li class="level2 item50"><a href="http://www.manthansystems.com/en/now-in-analytics/actionable-dashboards" class="level2"><span>Actionable Dashboards</span></a></li><li class="level2 item51"><a href="http://www.manthansystems.com/en/now-in-analytics/intuitive-user-design" class="level2"><span>Intuitive User Design</span></a></li><li class="level2 item52"><a href="http://www.manthansystems.com/en/now-in-analytics/collaborative-decision-making" class="level2"><span>Collaborative Decision Making</span></a></li><li class="level2 item53"><a href="http://www.manthansystems.com/en/now-in-analytics/self-service-bi" class="level2"><span>Self Service BI</span></a></li></ul></div></div></div></div></div></div></li><li class="level1 item22"><a href="http://www.manthansystems.com/en/corporate-customers" class="level1"><span>Customers</span></a></li><li class="level1 item23 parent"><a href="http://www.manthansystems.com/en/partners-become-partners" class="level1 parent"><span>Partners</span></a><div class="dropdown columns1" style="width: 250px; display: none; overflow: hidden;"><div style="overflow: hidden;"><div><div class="dropdown-bg"><div><div class="width100 column"><ul style="min-height: 64px;" class="level2"><li class="level2 item24"><a href="http://www.manthansystems.com/en/partners-become-partners/technology-partners" class="level2"><span>Technology Partners</span></a></li><li class="level2 item25"><a href="http://www.manthansystems.com/en/partners-become-partners/system-integration-a-reseller-partners" class="level2"><span>System Integration &amp; Reseller Partners</span></a></li></ul></div></div></div></div></div></div></li><li class="level1 item164"><a href="http://www.manthansystems.com/en/contact" class="level1"><span>Contact Us</span></a></li></ul></nav>
+						
+						 				<div id="language"><ul class="menu menu-dropdown">
+	<li class="level1 parent">
+		<span class="level1 parent">
+			<span>Language</span>
+		</span>
+		<div class="dropdown columns1">
+			<div class="dropdown-bg">
+				<div>
+					<div class="module"><div id="jflanguageselection">
+  <ul class="jflanguageselection">
+    <li><a href="http://www.manthansystems.com/de"><span xml:lang="de" lang="de">Deutsch</span></a></li>
+    <li><a href="http://www.manthansystems.com/es"><span xml:lang="es" lang="es">Español</span></a></li>
+    <li><a href="http://www.manthansystems.com/fr"><span xml:lang="fr" lang="fr">French</span></a></li>
+    <li><a href="http://www.manthansystems.com/it"><span xml:lang="it" lang="it">Italian</span></a></li>
+    <li><a href="http://www.manthansystems.com/pt"><span xml:lang="pt" lang="pt">Português</span></a></li>
+    <li id="active_language"><a href="http://www.manthansystems.com/en"><span xml:lang="en" lang="en">English</span></a></li>
+  </ul>
+</div></div>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>
+</div>
+				
+
+												<div id="search"><form method="get" action="http://www.manthansystems.com/index.php" id="googleSearch_cse">
+  <input name="option" value="com_googlesearch_cse" type="hidden">
+  <input name="n" value="30" type="hidden">
+  <div class="googleSearch_cse">
+    <input name="Itemid" value="193" type="hidden">
+    <input name="cx" value="014637424739016826954:49shi_ewcy8" type="hidden">
+    <input name="cof" value="FORID:11" type="hidden">
+    <input name="ie" value="ISO-8859-1" type="hidden">
+    <input name="q" class="inputbox" size="48" maxlength="255" placeholder="Search..." type="text">
+    <input name="sa" value="" class="csebutton" type="submit">
+    <input name="hl" value="en" type="hidden">
+  </div>
+  <input name="siteurl" value="http://www.manthansystems.com/search" type="hidden">
+</form></div>
+												
+					</div>
+				
+									
+				</header>
+
+								
+								
+								<div id="main" class="grid-block">
+				
+					<div style="min-height: 1783px;" id="maininner" class="grid-box">
+					    
+                        						<section id="breadcrumbs"><div class="breadcrumbs"><a href="http://www.manthansystems.com/">Manthan</a><span>Now in Analytics</span><strong>Advanced Analytics</strong></div></section>
+						                    
+												<section id="innertop" class="grid-block"><div style="width: 630px;" class="grid-box width100 grid-h"><div style="min-height: 176px;" class="module mod-titlebox  deepest">
+
+			<h1>Quick decision-makers have always been around. But here's making it more informed and effective.</h1>		
+</div></div></section>
+						
+						
+
+												<section id="content" class="grid-block">
+
+<div id="system">
+	
+	
+	<article class="item">
+
+				<header>
+
+										
+							
+							
+			
+
+			<h1 class="title">Drive business optimization with advanced analytics</h1>
+			
+			
+
+						
+				
+		</header>
+			
+				
+		<div class="content clearfix"><p>The primary focus of Advanced 
+Analytics is to apply advanced statistical models that use predictive 
+and descriptive techniques like association, clustering, regression, 
+correlation, decision trees, data mining, etc. in decision contexts for 
+key business areas.</p>
+<h2>Key features</h2>
+<p><a name="abic" id="abic"></a>The Advanced Analytics process is an 
+easy to use, wizard-based, guided analytic process. It has the ability 
+to model scenarios with multivariate statistical analysis capabilities. 
+It can be integrated in the same interface with performance management 
+and Business Intelligence to create a seamless user experience. It 
+provides you the ability to optimize, save and recall model variables to
+ deliver optimal results.<a name="top" id="top"></a> </p>
+<h2>Key applications</h2>
+<ul id="DB_ULOrder_link">
+  <li><a href="#Product">Product Rationalization</a></li>
+  <li><a href="#Affinity">Product Affinity Analysis</a></li>
+  <li><a href="#Market">Market Basket Analysis</a></li>
+  <li><a href="#Customer">Customer Churn Modeling</a></li>
+  <li><a href="#Segmentation">Customer Segmentation</a></li>
+  <li><a href="#RFM">RFM Modeling</a></li>
+  <li><a href="#Sales">Sales Forecasting</a></li>
+</ul>
+<p><a name="abig" id="abig"></a><a name="Product" id="Product"></a><strong>Product rationalization</strong><br>
+  Product rationalization is an intuitive, wizard-based, guided analytic
+ process. It incorporates advanced statistical models for classification
+ and attributes weightage control. This process helps you to improve 
+assortment productivity and thereby optimize your profitability. It also
+ offers flexible filters for data selection, and the ability to set 
+degree of rationalization for generating accurate, usable deletion 
+rules. </p>
+
+
+
+
+
+<p class="clearboth"><a name="Affinity" id="Affinity"></a><strong>Product affinity analysis</strong><br>
+The Product Affinity Analysis helps you to identify the items that are 
+likely to be purchased together. The process analyzes which items are an
+ anchor solution and drive the sales of other products. This in turn 
+helps to determine which items you should promote to create a 
+pull-through. This credible fact-based analysis also enhances sell-in 
+and recommends in-store product placements. It allows you to develop 
+optimal promotional plans that will benefit the manufacturer as well as 
+the retailer. You can use product affinity analysis to discover products
+ with natural affinity or even products with artificial affinity, like 
+cigarettes and stamps. </p>
+
+
+
+
+<p><a name="Market" id="Market"></a><strong>Market basket analysis</strong><br>
+Market Basket analysis provides insight into your customer profile. It 
+helps you answer questions like who they are and why they make certain 
+purchases. It also helps you assess which products tend to be purchased 
+together and which are most amenable to promotion. You can gauge what 
+merchandise should be carried and how they should be laid-out in the 
+store. It also analyzes which products you must put on sale, when to 
+issue coupon and to whom.</p>
+<p>  It helps you assess Basket characteristics, baskets clustering, 
+item popularity, track marketing events and analyze product affinity.
+  <a name="abi" id="abi"></a>
+</p>
+
+
+
+
+<p><a name="Customer" id="Customer"></a><strong>Customer churn modeling</strong><br>
+You can use Churn Management to segment customers by their value and 
+profile by identifying the patterns of events and metrics in the 
+customer lifecycle. It helps you to predict potential churners, 
+establish churn alarms (with minimum false alarms) and events that allow
+ one to adequately anticipate the point of no return. This model lets 
+you select the Protocol of Action by churn segment and plan retention 
+strategies. You can predict churn behavior using purchase behavior, 
+renewal behavior, redemption behavior, demographics, etc in a regression
+ model that scores key influencing variables.</p>
+<p>  An unsatisfied customer will share his negative experiences with at
+ least twice as many people as he would have a positive experience. 
+Since it is far less expensive to retain older customers than to acquire
+ new ones, it is imperative to use the customer churn model.</p>
+
+
+
+<p><a name="Segmentation" id="Segmentation"></a><strong>Customer segmentation</strong><br>
+Customer segmentation is a data mining methodology useful to customize 
+and target your marketing as well as merchandising initiatives and 
+consequently maximize ROI. You can classify your customer base into 
+groups of similar customers based on their behavioral and demographic 
+attributes.</p>
+<p>  This model is used for effective marketing and promotions, 
+merchandising planning, tracking customer's behavioral changes, new 
+store planning and it also assists you to alter and strengthen your 
+retail positioning. 
+</p>
+
+
+
+<p><a name="RFM" id="RFM"></a><strong>Recency frequency monetary modeling (RFM)</strong><br>
+  RFM is an effective process for marketing to your loyal customers and 
+uses purchase behavior by recency, frequency and monetary to determine 
+what offers work for what type of customers. Generally, only small 
+percentages (about 5%) of customers respond to typical offers. But with 
+RFM, you can ensure you are targeting the right set of customers who are
+ most likely to respond. RFM is a powerful segmentation method for 
+predicting customer response and ensures improvement in response as well
+ as profits. </p>
+<p> It is used primarily for targeted campaigning, customer acquisition,
+ cross-sell, up-sell, retention, etc and is a guarantor of campaign 
+effectiveness and optimization. </p>
+
+<p><a name="Sales" id="Sales"></a><strong>Sales forecasting</strong><br>
+  Sales forecasting is a process based on the ARIMA time-series model 
+for predicting the future sales of products. It provides the flexibility
+ to create store level forecasts as well across store groups or clusters
+ and processes the forecasts at multiple time grains (day, week, month, 
+etc).</p>
+<p> This process allows you to handle historic data on seasonality, 
+promotions and new product launches to predict the future sales of your 
+products. It creates a model based on auto correlation or partial 
+correlation techniques and gives you the ability to optimize a model 
+based on validation analysis.</p>
+<p> It allows you to set realistic, accurate sales targets, forecast 
+promotional sales lifts, and plan the demand for new products and new 
+stores. </p>
+
+</div>
+
+
+				
+		
+	</article>
+
+</div></section>
+						
+						                        
+                      
+
+					</div>
+					<!-- maininner end -->
+					
+										<aside style="min-height: 1754px;" id="sidebar-a" class="grid-box">
+										<div class="grid-box width100 grid-v"><div class="module mod-download  deepest">
+
+			<a href="http://www.manthansystems.com/en/schedule-online-demo?tmpl=component&amp;theme=yoo_nano" rel="rokbox" class="fld rqd">Request a demo</a>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-artciles  deepest">
+
+			<h3 class="module-title">Thoughts &amp; ideas</h3>
+<img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/clear-thinking.jpg" alt="How is your largest asset performing?">
+<h4>How is your largest asset performing?</h4>
+<p>Get the perfect balance going between what your customers want and 
+what you stock. Ensure that your largest asset, inventory, is managed 
+best.</p>
+<p class="readmore"><a class="readmore" href="http://thoughts.manthansystems.com/2012/10/23/clear-thinking-inventory-investment/" target="_blank">Read article</a></p>
+<hr>
+<img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/key-factors.jpg" alt="Make prices work for your customer. And you.">
+<h4>Make prices work for your customer. And you.</h4>
+<p>With the increasing ease of online shopping, customers are becoming 
+increasing price-sensitive. Price optimization at the store level 
+therefore, becomes critical. Take a look at how it is best managed.</p>
+<p class="readmore"><a class="readmore" href="http://thoughts.manthansystems.com/2012/09/27/key-factors-to-consider-in-price-optimization/" target="_blank">Read article</a></p>
+<hr>
+<img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/guided.jpg" alt="What do you stock? Everything or what the customer wants? ">
+<h4>What do you stock? Everything or what the customer wants? </h4>
+<p> Predictive analysis can make a huge difference in smart, 
+customer-centric merchandising decisions. One that impacts your 
+inventory and your bottom-line.</p>
+<p class="readmore"><a class="readmore" href="http://thoughts.manthansystems.com/2012/06/13/top-3-uses-of-predictive-analytics-in-merchandising-decisions/" target="_blank">Read article</a></p>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-red  deepest">
+
+			<a href="http://www.youtube.com/watch?v=iZ0h5bWo_sk&amp;feature=plcp" rel="rokbox[420 315]"><img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/6-ways-to-get-the-most-out-of-Market-Basket-Analysis.jpg" alt="6 ways to get the most out of market basket analysis"></a>
+<p class="readmore"><a class="readmore" href="http://www.youtube.com/watch?v=iZ0h5bWo_sk&amp;feature=plcp" rel="rokbox[420 315]">Play smart tips video</a></p>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-slidebox  deepest">
+
+		<h3 class="module-title"><span class="color">BI</span> informed. BI initiated. And now, BI implements! </h3>	
+<div style="visibility: visible; position: relative; width: 288px;" id="slideshow-139-51e84dd400e3a" class="wk-slideshow wk-slideshow-default" data-widgetkit="slideshow" data-options="{&quot;style&quot;:&quot;default&quot;,&quot;autoplay&quot;:1,&quot;interval&quot;:5000,&quot;width&quot;:288,&quot;height&quot;:140,&quot;duration&quot;:500,&quot;index&quot;:0,&quot;order&quot;:&quot;default&quot;,&quot;navigation&quot;:1,&quot;buttons&quot;:0,&quot;slices&quot;:20,&quot;animated&quot;:&quot;fade&quot;,&quot;caption_animation_duration&quot;:500}">
+	<div>
+		<ul style="width: 100%; overflow: hidden; position: relative; height: 140px;" class="slides">
+
+									<li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; height: 140px; width: 288px;">
+				<article class="wk-content clearfix"><a href="http://www.youtube.com/watch?v=GtFuVRcPZvs" rel="rokbox[420 315](3rd)" onclick="javascript: _gaq.push(['_trackPageview', '/video/red-hot/manthans-3rdi-next-gen-bi/module/On budget and on target Mark downs with the 3rd i Price Changer']);"> <img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/price-changer.jpg" alt="On budget and on target Mark downs with the 3rd i Price Changer" height="140" width="288"></a></article>
+			</li>
+												<li style="top: 0px; left: 0px; position: absolute; display: list-item; z-index: 2; opacity: 0.781456; height: 140px; width: 288px;">
+				<article class="wk-content clearfix"><a href="http://www.youtube.com/watch?v=vlYUN-KW2o4" rel="rokbox[420 315](3rd)" onclick="javascript: _gaq.push(['_trackPageview', '/video/red-hot/manthans-3rdi-next-gen-bi/module/The 3rd i Stock Refiller puts you on top of stock refills and promotions']);"><img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/stock-refiller.jpg" data-src="/images/stories/en/now-in-analytics/stock-refiller.jpg" alt="The 3rd i Stock Refiller puts you on top of stock refills and promotions" height="140" width="288"></a></article>
+			</li>
+												<li style="top: 0px; left: 0px; position: absolute; display: list-item; z-index: 1; opacity: 0.218544; height: 140px; width: 288px;">
+				<article class="wk-content clearfix"><a href="http://www.youtube.com/watch?v=735K2CoJNMg" rel="rokbox[420 315](3rd)" onclick="javascript: _gaq.push(['_trackPageview', '/video/red-hot/manthans-3rdi-next-gen-bi/module/Connect with the right customers at the right time with The 3rd i Campaign Builder']);"><img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/campaign-builder.jpg" data-src="/images/stories/en/now-in-analytics/campaign-builder.jpg" alt="Connect with the right customers at the right time with The 3rd i Campaign Builder" height="140" width="288"></a></article>
+			</li>
+								</ul>
+				<div style="display: none;" class="caption"></div><ul style="display: none;" class="captions"><li></li><li></li><li></li></ul>
+	</div>
+	<ul class="nav"><li class=""><span></span></li><li class=""><span></span></li><li class="active"><span></span></li></ul></div>		
+</div></div><div class="grid-box width100 grid-v"></div>                    <div class="grid-box width100 grid-v"><div class="module _menu  deepest">
+
+			<ul class="menu menu-sidebar"><li class="level1 item143"><a href="http://www.manthansystems.com/en/now-in-analytics/manthans-3rdi-next-gen-bi" class="level1"><span>Manthan’s 3rdi – Next Gen BI</span></a></li><li class="level1 item201"><a href="http://www.manthansystems.com/en/now-in-analytics/big-data" class="level1"><span>Big Data</span></a></li><li class="level1 item43 active current"><a href="http://www.manthansystems.com/en/now-in-analytics/advanced-analytics" class="level1 active current"><span>Advanced Analytics</span></a></li><li class="level1 item139"><a href="http://www.manthansystems.com/en/now-in-analytics/touch-analytics" class="level1"><span>Touch Analytics</span></a></li><li class="level1 item28"><a href="http://www.manthansystems.com/en/now-in-analytics/human-engineering" class="level1"><span>Human Engineering</span></a></li><li class="level1 item68"><a href="http://www.manthansystems.com/en/now-in-analytics/performance-management" class="level1"><span>Performance Management</span></a></li><li class="level1 item30"><a href="http://www.manthansystems.com/en/now-in-analytics/scorecards" class="level1"><span>Scorecards &amp; Strategy Map</span></a></li><li class="level1 item29"><a href="http://www.manthansystems.com/en/now-in-analytics/role-based-analytics" class="level1"><span>Role Based Analytics</span></a></li><li class="level1 item49"><a href="http://www.manthansystems.com/en/now-in-analytics/guided-analytics" class="level1"><span>Guided Analytics</span></a></li><li class="level1 item50"><a href="http://www.manthansystems.com/en/now-in-analytics/actionable-dashboards" class="level1"><span>Actionable Dashboards</span></a></li><li class="level1 item51"><a href="http://www.manthansystems.com/en/now-in-analytics/intuitive-user-design" class="level1"><span>Intuitive User Design</span></a></li><li class="level1 item52"><a href="http://www.manthansystems.com/en/now-in-analytics/collaborative-decision-making" class="level1"><span>Collaborative Decision Making</span></a></li><li class="level1 item53"><a href="http://www.manthansystems.com/en/now-in-analytics/self-service-bi" class="level1"><span>Self Service BI</span></a></li></ul>		
+</div></div> </aside>
+										
+					
+				</div>
+								<!-- main end -->
+
+								
+								
+								<footer id="footer" class="grid-block">
+
+					
+					<div class="module   deepest">
+
+			<div class="blt-wrap">
+  <div class="blt-wrapr">
+    <div class="blt-wrapl">
+      <div class="botlinks">
+        <div class="block1">
+          <ul>
+            <li><a href="http://www.manthansystems.com/en/products/arc-merchandise-analytics"><strong>Products</strong></a></li>
+            <li><a href="http://www.manthansystems.com/en/products/arc-merchandise-analytics" title="ARC Merchandise Analytics">ARC Merchandise Analytics</a></li>
+            <li><a href="http://www.manthansystems.com/en/products/arc-customer-analytics" title="ARC Customer Analytics">ARC Customer Analytics</a></li>
+            <li><a href="http://www.manthansystems.com/en/products/arc-target-one" title="ARC TargetOne">ARC TargetOne</a></li>
+            <li> <a href="http://www.manthansystems.com/en/products/arc-vendor-insights" title="ARC Vendor Insights">ARC Vendor Insights</a></li>
+            <li> <a href="http://www.manthansystems.com/en/products/arc-vendor-link" title="ARC Vendor Link">ARC Vendor Link</a></li>
+            <li> <a href="http://www.manthansystems.com/en/products/arc-demand-signal-repository">ARC Demand Signal Repository</a></li>
+            <li> <a href="http://www.manthansystems.com/en/products/arc-ecommerce-analytics" title="ARC eCommerce Analytics">ARC eCommerce Analytics</a></li>
+            <li><a href="http://www.manthansystems.com/en/products/arc-store-operation" title="ARC Store Operations">ARC Store Operations</a></li>
+          </ul>
+        </div>
+        <!-- <div class="block2"><img src="/images/stories/en/quick/your_chief.gif" border="0" alt="Your Chief Analytics Officer" width="198" /></div>-->
+        <div class="block3">
+          <ul>
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/manthans-3rdi-next-gen-bi"><strong>Now in Analytics</strong></a></li>
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/manthans-3rdi-next-gen-bi">Manthan's 3<sup>rd</sup>i – Next Gen BI</a></li>
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/advanced-analytics">Advanced Analytics</a></li>
+            
+            
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/performance-management">Performance Management</a></li>
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/role-based-analytics">Role Based Analytics </a></li>
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/guided-analytics">Guided Analytics</a></li>
+            <li><a href="http://www.manthansystems.com/en/now-in-analytics/actionable-dashboards">Actionable Dashboards</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="block4">
+          <ul>
+            <li><a href="http://www.manthansystems.com/en/resources/literature"><strong>Resources</strong></a></li>
+            <li><a href="http://www.manthansystems.com/en/resources/literature">Product Literature</a></li>
+            <li><a href="http://www.manthansystems.com/en/resources/case-studies">Case Studies</a></li>
+            <li><a href="http://www.manthansystems.com/en/resources/podcasts-slidecasts">Podcasts / Slidecasts</a></li>
+            <li><a href="http://thoughts.manthansystems.com/" target="_blank" onclick="javascript: _gaq.push(['_trackPageview', '/outbound//footer-quicklinks/www.thoughts.manthansystems.com']);">Thoughts &amp; Ideas</a></li>
+            <li><a href="http://www.manthansystems.com/en/resources/corporate-media-analystcoverage">Media &amp; Analyst</a></li>
+            <li><a href="http://tuneup.manthansystems.com/index.html" target="_blank" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer-quicklinks/www.tuneup.manthansystems.com']);">Webinars</a></li>
+          </ul>
+        </div>
+        <div class="block5">
+          <ul>
+            <li><strong>Reach us</strong></li>
+            <li><a href="http://www.manthansystems.com/en/contact-us">Contact Us</a></li>
+            <li><a href="http://www.manthansystems.com/en/schedule-a-meeting">Request a Meeting</a></li>
+            <li><a href="http://www.manthansystems.com/en/schedule-online-demo">Request a Demo</a></li>
+          </ul>
+        </div>
+     <div class="block5" style="margin-right:0px">
+          <div class="newslettter"><a href="http://www.manthansystems.com/fresh-newsletter?tmpl=component" rel="rokbox[540 343]" title="Get the monthly dose of Retail Insights">Subscribe to the<br>Manthan Newsletter</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>		
+</div>
+<div class="module   deepest">
+
+			<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-626498-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script>
+
+<script type="text/javascript" language="javascript">llactid=21161</script> 
+<script type="text/javascript" language="javascript" src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/trackalyze.js"></script><img src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/trackalyze.gif">
+
+<!-- Start of HubSpot Logging Code  -->
+<script type="text/javascript" language="javascript">
+var hs_portalid=165941;
+var hs_salog_version = "2.00";
+var hs_ppa = "manthansystems1.app12.hubspot.com";
+document.write(unescape("%3Cscript src='" + document.location.protocol + "//" + hs_ppa + "/salog.js.aspx' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/salog.htm" type="text/javascript"></script>
+<!-- End of HubSpot Logging Code -->		
+</div>
+				</footer>
+				 <div id="footer2">
+<div class="module   deepest">
+
+			<div class="sicons">
+  <a class="sicon sss" href="http://www.slideshare.net/manthansystems" target="_blank" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer/www.slideshare.net/manthansystems']);">  </a>
+  <a class="sicon syt" href="http://www.youtube.com/user/manthansystems" target="_blank" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer/www.youtube.com/user/manthansystems']);"> </a>
+  <a class="sicon stw" href="http://twitter.com/#%21/Retail_Ideas" target="_blank" title="Follow us on twitter" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer/twitter.com/#!/Retail_Ideas']);">  </a>
+  <a class="sicon sfb" href="http://www.facebook.com/pages/Manthan/50840168011" target="_blank" title="Follow us on facebook" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer/www.facebook.com/pages/Manthan/50840168011']);">  </a>
+  <a class="sicon sli" href="http://www.linkedin.com/company/29460?trk=tyah" target="_blank" title="Follow us on linkedin" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer/www.linkedin.com/company/29460?trk=tyah']);">  </a>
+  <a class="sicon snl" href="http://www.manthansystems.com/fresh-newsletter?tmpl=component" rel="rokbox[540 343]" title="Get the monthly dose of Retail Insights">  </a>
+  <a class="sicon sfw" href="http://thoughts.manthansystems.com/" target="_blank" title="Fresh: The Newest Ideas In Retail BI" onclick="javascript: _gaq.push(['_trackPageview', '/outbound/footer/www.thoughts.manthansystems.com']);">  </a>
+  </div>		
+</div>
+<div class="module   deepest">
+
+			<div class="fc">© 2013 Manthan Systems. All rights reserved.<span style="margin-left:30px"> <a href="http://www.manthansystems.com/privacy"> Privacy </a> &nbsp;|&nbsp; <a href="http://www.manthansystems.com/copyright"> Copyright </a> &nbsp;|&nbsp; <a href="http://www.manthansystems.com/sitemap"> Sitemap </a> </span>
+ 
+</div>		
+</div></div>
+	</div>
+			</div>
+			
+			
+		</div><div id="pwebbox436" class="pwebbox-modal pwebbox-static pwebbox-offset-top pwebbox-iframe light pwebbox-horizontal " dir="ltr">
+			<a href="http://www.manthansystems.com/fresh-newsletter?tmpl=component" id="pwebbox436_modal_clone" style="display:none"></a>
+	</div>
+
+	
+	
+
+<div style="visibility: hidden; opacity: 0; display: none; position: absolute; top: 0px; left: 0px; cursor: pointer; background-color: rgb(0, 0, 0); z-index: 65550; width: 1186px; height: 2093px;" class="rokbox-overlay" id="rokbox-overlay"></div><div style="position: absolute; z-index: 65555; visibility: hidden; opacity: 0; display: none; top: 1241px; left: 593px;" class="rokbox-clean" id="rokbox-wrapper"><div class="rokbox-left" id="rokbox-top"><div class="rokbox-right"><div class="rokbox-center"></div></div></div><div class="rokbox-left" id="rokbox-middle"><div class="rokbox-right"><div class="rokbox-center"><a href="#" id="rokbox-close"><span>[x] close</span></a></div></div></div><div class="rokbox-left" id="rokbox-bottom"><div class="rokbox-right"><div class="rokbox-center"></div></div></div><div class="clr"></div></div><div class="" style="z-index: 65555; position: fixed; top: 0px; left: 0px; visibility: hidden; opacity: 0; width: 1423px; height: 797px; display: none;" id="sbox-overlay"></div><div class="pwebBoxWindow pwebbox436Window light" style="z-index: 65557; position: fixed; top: 217px; left: 428px; width: 546px; height: 343px; display: none;" id="sbox-window"><a href="#" id="sbox-btn-close"></a><div class="sbox-content-iframe" style="visibility: visible; opacity: 1;" id="sbox-content"><iframe src="Retail%20advanced%20analytics%20-%20Customer%20Segmentation,%20Market%20Basket%20analysis%20&amp;%20sales%20forecasting%20-%20Manthan%20Systems_files/fresh-newsletter.htm" frameborder="0" height="343" width="546"></iframe></div></div></body></html>

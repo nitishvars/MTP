@@ -1,0 +1,421 @@
+
+<!-- saved from url=(0089)http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/finproject1.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="Generator" content="Microsoft Word 97">
+<title>THE DATASET:</title>
+</head>
+<body bgcolor="#E6E8FA">
+<dir>
+<dir>
+
+<b><font size="6"><p></p><center>Marketing Plans for Reducing Customer
+Churning </center><p></p></font></b></dir><b><font size="6">
+</font></b></dir><b><font size="6">
+<br>
+</font></b><center><pre><p><font size="3">    Bapuran, Manoj  Deng, Meixia</font></p><font size="3">
+</font><p><font size="3"> Giljum, Scott  Halbert, Gary  Liu, Yuxing </font></p></pre>
+</center>
+
+
+<br>
+<b><u><font size="5"><p><a name="Introduction">Introduction </a></p><a name="Introduction">
+</a></font></u></b><a name="Introduction"><font size="2">
+<p>&nbsp;</p>
+
+</font><p>The topic we chose to explore is the reduction of churning through the use of data mining for marketing plan development.  The problem we addressed is that of a telecommunications company looking for ways to reduce customer churning by developing a targeted marketing program.  The company wishes to do this by identifying combinations of voice mail and/or international calling plan packages that could effectively be offered to the various customer groups.  The customer groups are divided into calling time habits such as day, evening, and night.  Also, there are many customers that make international calls, and those customers may represent a distinct group for targeting new plan packages. With pattern information gained from mining of call data, the firm hopes to identify which plan-customer group pairs have the lowest churn rates.  Identification of such patterns should enable the firm to optimize its marketing strategy for churn reduction.</p>
+<br><br>
+<b><u><font size="5"></font></u></b></a><b><u><font size="5"><p><a name="Introduction"></a><a name="Decp">Data Description</a></p></font><a name="Decp">
+</a></u><a name="Decp">
+<p>The churn dataset deals with telecommunications customers and the data pertinent to the telephone calls they make.  Customers have a choice of carriers, or companies providing them with telephone service. When these customers change carriers they are said to churn which results in a loss of revenue for the previous carrier. The telecommunications company concerned here has used all its databases like billing database, customer service database etc. and generated a list of pertinent records as follows </p>
+
+<p>&nbsp;</p>
+<b><u><font size="5">
+</font></u></b></a><b><u><font size="5"><p><a name="Decp"></a><a name="Meth">Methodology Followed</a></p></font><a name="Meth">
+</a></u></b><a name="Meth">
+<p>The analysis was basically done to identify possible groups of people on the basis of causes that may lead to churning.  To see the relationship between the people who churn and other factors like the amount of international calls they make, we ran scatter and splat analysis with all possible combinations Any initial pattern  identified in the beginning (scatter analysis) was further analyzed  by checking for that same pattern when run with  several similar combinations. Later decision tree analysis and evidence classifier were utilized to group people in to several possible domains with certain common traits.Causes for the churning were later extracted from the visualizations done in mineset and are presented in our conclusions.</p>
+<p align="CENTER"> </p>
+<br><br>
+<b><u><font size="5"></font></u></b></a><b><u><font size="5"><p><a name="Meth"></a><a name="Anal">Analysis of the Dataset</a></p><a name="Anal">
+</a></font></u></b><a name="Anal">
+<p>A) A combination of supervised and unsupervised modeling</p>
+
+<p>Based on our business problem, our goal of data mining is to reduce churning by developing a targeted marketing plan for a telecommunication company. In order to fulfill this goal, we perform typical analytical data mining operations in MineSet including a model describing the data and visualization of the model.</p>
+
+<p>We begin our data analysis with supervised modeling. That is to build classifiers to target several valuable customer
+groups. We choose Evidence inducers and Decision Trees for our classification models. By removing those columns with no
+predictive value or correlation with other columns while adding little extra information, we keep only the following
+attributes:</p><pre><p>	international-plan  </p>
+<p>	voice-mail-plan    </p>
+<p>	total-day-charge   </p>
+<p>	total-eve-charge   </p>
+<p>	total-night-charge </p>
+<p>	total-intl-charge   </p>
+<p>	number-customer-service-calls</p>
+<p>	churned</p></pre>
+
+</a><p><a name="Anal">When the induction step is done, the Evidence Visualizer is automatically invoked, showing the model visually. (</a><a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-evi1.gif">Figure 1-a</a> , <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-evi2.gif">
+Figure 1-b</a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-evi3.gif">Figure1-c</a>)</p>
+
+<p>Investigating the chart, we discover two obvious no-churn-customer groups and four obvious churn-customer groups. </p><pre><p>	total-day-charge [29.75-37.95]  		Prob(no-churn) 93.03%</p>
+<p>	voice-mail-plan=yes				Prob(no-churn) 92.29%</p>
+<p>	total-day-charge [44.96-53.84]			Prob(churn)	55.21%</p>
+<p>	total-day-charge [53.84--    ]			Prob(churn)	100%</p>
+<p>	number-customer-service-calls=[3.5…]		Prob(churn)	50.38%</p>
+<p>	International-plan=yes				Prob(churn)	42.07%</p></pre>
+
+<p>We can see the factors that affect churning. The slice representing churn increases from left to right on the first row( total-day-charge) and the second row (number-customer-service-calls). A serious problem is evident. Customers that use the company’s service the most also churn at a higher rate. The company is losing its most valuable customers.</p>
+<p>Also, we can see that customers who have voice mail plan seldom churn. We should offer this service to retain the valuable customers.</p>
+
+<p>The decision tree classifier also confirms this knowledge discovery, but the error rate
+reduced significantly. (<a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-dt.gif"> Figure 2</a>)</p>
+
+<p>After achieving the basic idea of the data, we try clustering (unsupervised modeling) and integrate it to our evidence inducer and classifier. The clustering algorithm selects significant characteristics by which to group the records. Cluster Visualizer indicates that the number of voice mail messages and total day charges are the most important crieria since one cluster of them obviously differs from another. After Integrating the 3 clusters (averaging on the columns), we can see difference between 3 clusters, but they are not well separated.</p>
+<center><table border="" cellspacing="1" cellpadding="7" width="590">
+<tbody><tr><td width="33%" valign="TOP">
+<p>Cluster</p></td>
+<td width="33%" valign="TOP">
+<p>Prob(no-churn)</p></td>
+<td width="33%" valign="TOP">
+<p>Evidence</p></td>
+</tr>
+<tr><td width="33%" valign="TOP">
+<p>3</p></td>
+<td width="33%" valign="TOP">
+<p>92.29%</p></td>
+<td width="33%" valign="TOP">
+<p>0.679</p></td>
+</tr>
+<tr><td width="33%" valign="TOP">
+<p>2</p></td>
+<td width="33%" valign="TOP">
+<p>86.75%</p></td>
+<td width="33%" valign="TOP">
+<p>0.075</p></td>
+</tr>
+<tr><td width="33%" valign="TOP">
+<p>1</p></td>
+<td width="33%" valign="TOP">
+<p>72.22%</p></td>
+<td width="33%" valign="TOP">
+<p>0</p></td>
+</tr>
+</tbody></table></center>
+
+
+<p>(<a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-evi.gif"> Figure 3-1,</a> <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-ev1i.gif"> Figure 3-2,
+</a> <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-ev2i.gif"> Figure3-3 </a>)</p>
+
+<p>B) Reducing Misclassification Costs</p>
+
+<p>We are trying to use three important tools in MineSet in order to reduce the cost of making mistakes. The Confusion matrix will give a detailed picture of errors and incorrect predictions,  the loss matrix will take into account that some mistakes are worse than others, and return-on-investment curve will show how to invest economically.</p>
+
+<p>Confusion matrix shows correct and incorrect classifications by <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-dt-conf_matrix.gif"> Figure 4</a>. We use a table to demonstrate our
+classification
+performance.</p> <center><table border="" cellspacing="1" cellpadding="7" width="590">
+<tbody><tr><td width="20%" valign="TOP">
+<p>Predicted Class</p></td>
+<td width="20%" valign="TOP">
+<p>Actual Class</p></td>
+<td width="20%" valign="TOP">
+<p>Number of records</p></td>
+<td width="20%" valign="TOP">
+<p>Percent of total</p></td>
+<td width="20%" valign="TOP">
+<p>Percent of prob</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>No</p></td>
+<td width="20%" valign="TOP">
+<p>No</p></td>
+<td width="20%" valign="TOP">
+<p>1,430</p></td>
+<td width="20%" valign="TOP">
+<p>85.8%</p></td>
+<td width="20%" valign="TOP">
+<p>99.1% of no</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>No</p></td>
+<td width="20%" valign="TOP">
+<p>Yes</p></td>
+<td width="20%" valign="TOP">
+<p>78</p></td>
+<td width="20%" valign="TOP">
+<p>4.7%</p></td>
+<td width="20%" valign="TOP">
+<p>34.8% of yes</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>Yes</p></td>
+<td width="20%" valign="TOP">
+<p>No</p></td>
+<td width="20%" valign="TOP">
+<p>146</p></td>
+<td width="20%" valign="TOP">
+<p>88%</p></td>
+<td width="20%" valign="TOP">
+<p>65.2% of yes</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>Yes</p></td>
+<td width="20%" valign="TOP">
+<p>No</p></td>
+<td width="20%" valign="TOP">
+<p>13</p></td>
+<td width="20%" valign="TOP">
+<p>0.8%</p></td>
+<td width="20%" valign="TOP">
+<p>0.9% of no</p></td>
+</tr>
+</tbody></table></center>
+
+
+<p>By defining loss matrix for churned in two ways we get two different ROI curve
+(<a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-dt-roi_curve1.gif"> Figure 5</a> and <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn-dt-roi_curve2.gif"> Figure 6 </a>).</p>
+<br><br>
+<p align="center"></p><center><b>Loss Matrix for churned (1)</b><p></p>
+<p align="CENTER"><table border="" cellspacing="1" cellpadding="7" width="456">
+<tbody><tr><td width="25%" valign="TOP">
+<p>Actual Values</p></td>
+<td width="75%" valign="TOP" colspan="3">
+<p>                        Predicted Values</p></td>
+</tr>
+<tr><td width="25%" valign="TOP">&nbsp;</td>
+<td width="25%" valign="TOP">
+<p>?</p></td>
+<td width="32%" valign="TOP">
+<p>No</p></td>
+<td width="18%" valign="TOP">
+<p>Yes</p></td>
+</tr>
+<tr><td width="25%" valign="TOP">
+<p>No</p></td>
+<td width="25%" valign="TOP">
+<p>10</p></td>
+<td width="32%" valign="TOP">
+<p>0</p></td>
+<td width="18%" valign="TOP">
+<p>3</p></td>
+</tr>
+<tr><td width="25%" valign="TOP">
+<p>Yes</p></td>
+<td width="25%" valign="TOP">
+<p>10</p></td>
+<td width="32%" valign="TOP">
+<p>10</p></td>
+<td width="18%" valign="TOP">
+<p>-10</p></td>
+</tr>
+</tbody></table></p></center>
+<p></p>
+
+
+<p>&nbsp;</p>
+<p>		</p>
+
+<p></p><center><b>Loss Matrix for churned (2)</b></center><p></p>
+
+<p align="CENTER"></p><center><table border="" cellspacing="1" cellpadding="7" width="438">
+<tbody><tr><td width="30%" valign="TOP">
+<p>Actual Values</p></td>
+<td width="70%" valign="TOP" colspan="3">
+<p>                      Predicted Values</p></td>
+</tr>
+<tr><td width="30%" valign="TOP">&nbsp;</td>
+<td width="19%" valign="TOP">
+<p>?</p></td>
+<td width="29%" valign="TOP">
+<p>No</p></td>
+<td width="22%" valign="TOP">
+<p>Yes</p></td>
+</tr>
+<tr><td width="30%" valign="TOP">
+<p>No</p></td>
+<td width="19%" valign="TOP">
+<p>10</p></td>
+<td width="29%" valign="TOP">
+<p>0</p></td>
+<td width="22%" valign="TOP">
+<p>1</p></td>
+</tr>
+<tr><td width="30%" valign="TOP">
+<p>Yes</p></td>
+<td width="19%" valign="TOP">
+<p>10</p></td>
+<td width="29%" valign="TOP">
+<p>15</p></td>
+<td width="22%" valign="TOP">
+<p>-20</p></td>
+</tr>
+</tbody></table>
+</center><p></p>
+
+<p>The values in the column under the question mark are the cost from predicting "unknown".</p>
+<br>
+<p>For those values in (1), if we predict a customer will not churn, and we are correct, we neither win or lose (represented by zero). If we predict a customer will not churn (and therefore fail to send them any incentives), and they do churn, we incur a loss of 10. If we incorrectly predict a customer will churn, and they do not, we lose three, representing the cost of sending a mailing unnecessarily. If our mailing program works and we retain some of the customers who would have churned, we gain 10 (represented by minus 10).</p>
+<p>In (2), we reduce the value of our mailing cost and increase the value of retaining a customer. </p>
+
+<p>From the two ROI curves, we can see that the expected performance if we take a random sample of the population and send them mail is distinctly different, because the costs of mailing are different. If the mailing cost is small enough (for example, companies now can send email to customers with little cost), then it is probably a good idea to send mails to customers as more as possible since the random ROI curve is a monotonically increasing line.</p>
+
+<p>The points of optimum return on investment, are represented by the knee of the curve, at 1488 (12.6% of the population) and 3,513 (30% of the population) respectively, because the gain from retaining customers doubles. If the gain of retaining a customer is much larger comparing with the mailing cost and the mailing program works, so the company can also enlarge the scope of its mailing program. </p>
+
+<p>C).Initially scatter and splat analysis was done with various possible combinations of the columns and some of the interesting observations made are as follows,</p>
+
+<ol>
+
+<li>With invoking the splat model, we get the results shown in <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn_splat.gif"> Figure 7-1 </a>and <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churn_splat2.gif"> Figure 7-2</a> and we
+get the following conclusions: </li>
+
+<p>a). When international charge is high, and the total day charge is in the middle range, 50% customers churned. These
+customers can be grouped as frequently international call users, seldom domestic call users and they are valuable customers.</p>
+<p>b). When total day charge is high and the total international charge is in the middle   
+      range, 50% customers churned. These customers can be grouped as frequency    
+     domestic calls users, seldom international calls and they are also valuable .</p>
+<p>c). When both total international call charges and total day charges are high, 100%       customers churned. These customers are the easiest group to churn and they are also the most valuable customers. </p>
+<p>d). When the number of voice mail message is at upper range, most of customers 
+      churned. These customers total day charges are not high and they may be treated   
+     as  not so valuable customers. </p>
+<p>e). When the total international call charges are in the lower middle range, most
+      customers churned and they are also not so valuable customers. </p>
+
+<li>When a scatter visualizer was invoked with account length as one fixed axis and the entity color as the variable churned,
+with the other axes continuously varying for several observations it was found that the average time a customer stays with the
+carrier was about 100 months.</li><a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/acclength-evecharge.gif">Figure 8</a>
+<br><br>
+<li>Several observations based on scatter visualization, decision tree analysis and the decision table creation after the clustering were done. These support the point that the number of toatal day minutes and the number of customer service calls are the two most important variables that have a good discrimination on the people who churn and those who donot. </li>
+
+
+<ol type="a)">
+<li>The decision table shows a pattern of more than 80% of churning probability exists for people who have their total number
+of day minutes more than 250 and for people who make more than 3.5 customer service calls on an average.</li>See <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/churnscatter-dtab.gif"> Figure 9</a>.
+
+     <li> It was also observed that the people whose total day, evening and night calls were less than 120 and greater than 60
+were most probable to churn off. This was seen by a scatter analysis of total day, evening and night calls on one axis and the
+number of churned represented by the entity color. The other axes’ variables were varied for different
+combinations. See <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/tdc-churnnum.gif"> Figure 10-1</a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/tev-churn.gif"> Figure 10-2</a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/tnc-churn.gif"> Figure 10-3</a></li>
+
+<li> There are a lot of ways that Mineset supplies for prediction. The lift curve is one of the methods. In the lift curve,
+the low curve shows the number of customers expected to churn. The upper curve shows the percentage of customers who churn
+when placed in order according to the classifier’s score for each record. For our case,  we are trying to figure out at what
+percentage of data can give a good and efficient prediction by lift curve. We choose 10% , 20%, 30%, 40% sample  rate to
+create the training model and use these classifiers on their remainder to test. <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/lift_curve_10.gif"> Figure 11-1 </a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/lift_curve_20.gif"> Figure 11-2
+</a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/lift_curve_30.gif"> Figure 11-3</a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/lift_curve_40.gif">Figure 
+11-4</a> are shown below. </li>
+
+<p>From the above figures we can see that:</p>
+<ol type="a)">
+<li>If we use 10% data to create the training sample, we can see the lift curve is not very smooth and that showing that the
+remainder data are not predicted very good.</li>
+<li>If we compared the lift curve by applying the models from 20%, 30% or 40%   
+      samples data, we can see that those lift curves are satisfied smooth, and that   
+      shows us if we use 20-40% sample data to build the models, the models will 
+      predict the data well.</li>
+<li>Compare the "knee" points of the curves (Figure 11-2, 11-3, 11-4), we have :</li></ol></ol>
+
+<center>
+<table border="" cellspacing="1" cellpadding="7" width="590">
+<tbody><tr><td width="20%" valign="TOP">&nbsp;</td>
+<td width="20%" valign="TOP">
+<p>X position</p></td>
+<td width="20%" valign="TOP">
+<p>Y position</p></td>
+<td width="20%" valign="TOP">
+<p>lift</p></td>
+<td width="20%" valign="TOP">
+<p>probability</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>20% samples</p></td>
+<td width="20%" valign="TOP">
+<p>15.8%</p></td>
+<td width="20%" valign="TOP">
+<p>79.4%</p></td>
+<td width="20%" valign="TOP">
+<p>5.01</p></td>
+<td width="20%" valign="TOP">
+<p>0.111</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>30% samples</p></td>
+<td width="20%" valign="TOP">
+<p>17.50%</p></td>
+<td width="20%" valign="TOP">
+<p>80.25%</p></td>
+<td width="20%" valign="TOP">
+<p>4.58</p></td>
+<td width="20%" valign="TOP">
+<p>0.09</p></td>
+</tr>
+<tr><td width="20%" valign="TOP">
+<p>40% samples</p></td>
+<td width="20%" valign="TOP">
+<p>17.1%</p></td>
+<td width="20%" valign="TOP">
+<p>80.4%</p></td>
+<td width="20%" valign="TOP">
+<p>4.7</p></td>
+<td width="20%" valign="TOP">
+<p>0.057</p></td>
+</tr>
+</tbody></table></center>
+<dir>
+
+<p>    </p>
+<p>It shows us that more data involved into models, more precise the prediction will be. But consider to be time efficient and reduce the data process, 30% sample data is good enough to build to model for prediction. </p>
+</dir>
+
+<b><u><p><font size="5"><a name="Fur">Further Analysis</a></font></p><a name="Fur">
+</a></u></b><a name="Fur">
+</a><p><a name="Fur">1) A new column was generated called the customer importance index which is the total money the company receives from each
+of the customers. When this column was run in a scatter analysis with the number of churns we found that two categories
+emerged showing that there was considerable churning at customer importance index values of about 450 and 200. See </a><a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/CI-acclength-churn.gif"> Figure 12</a> </p><br>
+
+
+<p>But when each of the individual contributors was used for the scatter analysis along with the churned variable, there were
+no clusters observed.  This shows that the combination of all the four factors was responsible for creating that two clusters.
+It could have been possible to find causes for the clusters if we knew the call cost packages in more depth. Due to
+inconclusive data we assume that all the four costs are equally responsible for the formation of the customer importance
+index.See <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/acclength-evecharge.gif"> Figure13-1 </a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/acclength-nightcharge.gif"> Figure 13-2 </a>, <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/acclength-intlcharge.gif"> Figure 13-3</a></p><br>
+
+<p>Later when the number of each type of calls and the number of customer service calls were viewed on a scatter visualizer we see that ,
+For the day, evening and night calls a majority of churning occurs at about 8 customer service calls &amp; for the
+international calls the majority of churning occurs at less than three customer service calls. See <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/intl_custserv.gif"> Figure 14</a></p>
+
+<p>&nbsp;</p>
+<p>Combining both of those observations we see that all the types of calls are equally important for revenue generation and customers leave the company after about 3 customer service calls on international calls.</p>
+
+<p>II)</p>
+
+<p>When the total day, evening and night calls were analyzed  with the churn variable it was observed that there was very high
+probability that people with either or all the number of the above calls
+in the range of 60 – 120  were very likely to churn
+off. See <a href="http://meru.cecs.missouri.edu/courses/cecs401_data_mining/projects/group2/cust60-120lift.gif"> Figure 15</a>
+
+
+</p><p>To see the possibility of getting people to make more than 120 calls (to get them in to a ‘lesser churning’ range, a new data column was created for all the people who had any or all of their number of calls in that range.  A lift curve was generated for those groups of people with the two labels of either being in that range or being out of the range.</p>
+<br>
+<p>We have a 8% chance that the company  would be rewarded in any efforts to persuade people to make more than 120 calls .</p>
+<b><u><font size="5"><p><a name="Con">Conclusions and Recommendations</a></p><a name="Con">
+</a></font></u></b><a name="Con">
+<p>After a thorough review of the available data in the Churn dataset, our group arrived at the following conclusions, from which we will make our recommendation.</p>
+<br>
+<b><u><p>Conclusions</p>
+</u></b><ol><b><u>
+
+</u></b><li><b>Voice-mail plans:</b>  People with a voice-mail plan do not churn in 92% of all cases.  This finding seems to be fairly independent of other data.  Without additional information that can help determine why this group does not churn, we believe the company should make voice-mail standard in all plans.</li>
+<b></b><li><b>Account length:</b>  This information showed that most people tend to stay with the company about 100 months before churning.  The supporting data was insufficient to develop any meaningful or discernable patterns in relation to other variables.  Although the data is inconclusive, this category helps define a terminal length to which the company should aspire to entice the churners to reach.</li>
+<b></b><li><b>Customer Service Calls:</b>  If the number of customer service calls is greater than 3 the customers begin to churn.  When the number of service calls per customer reaches 8, the level of dissatisfaction is so high that nearly all customers leave the company.</li>
+<b></b><li><b>Total Calls:</b>  Those customers that churn can also be identified to make between 60 and 120 calls per month.  Since it is not logical to try and get customers to make fewer calls, we concentrated our efforts on increasing the number of calls above 120.  The resultant model was used to generate a lift curve.  Results from this lift curve were somewhat disappointing, as it showed an increase in return of only 8%.</li>
+<b></b><li><b>International Calls:</b>  Those customers making international calls were the most susceptible to churning.  This assumes a relation to the high cost of international calling rates relative to all other rates.  Those individuals making more than 12.5 minutes of international calls were very likely to churn.</li>
+<b></b><li><b>Daytime Calls:</b>  Persons making most of their calls during daytime hours are very likely to churn.  This is assumed to result from the same issue of high rates that also affects international calls.</li></ol>
+
+<b><br><br>
+<u><p>Recommendation</p>
+</u></b><p>It is our belief that the company should make voice-mail a standard part of all calling plans.  Second, more information is needed for a thorough analysis of calling rates so that the company can possibly offer reduced rate plans for the daytime and/or international customers.  Third, the company needs to target improvements to customer service as a way to reduce churning.  This last item can be from improvements in the customer service department as well as from mailings to customers already with three complaints.  The customers with three complaints should be questioned to find out the primary reasons for their telecommunication difficulties.</p>
+
+<font size="2"><p>&nbsp;</p></font>
+
+
+
+</a></ol></b></body></html>

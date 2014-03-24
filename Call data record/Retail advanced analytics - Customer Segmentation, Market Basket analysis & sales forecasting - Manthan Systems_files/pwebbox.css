@@ -1,0 +1,395 @@
+
+ /* Positions
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox-left, .pwebbox-right, .pwebbox-top, .pwebbox-bottom {
+	position: fixed;
+	z-index: 999;
+}
+
+.pwebbox-left {
+	left: 0;
+}
+.pwebbox-right {
+	right: 0;
+}
+.pwebbox-top {
+	top: 0;
+}
+.pwebbox-bottom {
+	bottom: 0;
+}
+
+.pwebbox-offset-left.pwebbox-top,
+.pwebbox-offset-left.pwebbox-bottom {
+	left: 20%;
+}
+.pwebbox-offset-right.pwebbox-top,
+.pwebbox-offset-right.pwebbox-bottom {
+	right: 20%;
+}
+.pwebbox-offset-top.pwebbox-left,
+.pwebbox-offset-top.pwebbox-right {
+	top: 20%;
+}
+
+ /* Slide in Box initail position
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox.pwebbox-left.pwebbox-vertical,
+.pwebbox.pwebbox-left.pwebbox-horizontal .pwebbox_box {
+	left: -999px;
+}
+.pwebbox.pwebbox-right.pwebbox-vertical,
+.pwebbox.pwebbox-right.pwebbox-horizontal .pwebbox_box {
+	right: -999px;
+}
+.pwebbox.pwebbox-top {
+	top: -999px;
+}
+.pwebbox.pwebbox-bottom {
+	bottom: -999px;
+}
+
+
+ /* Toggler
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox_toggler {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.pwebbox_toggler:hover {
+	color: inherit;
+	text-decoration: none;
+}
+.pwebbox-vertical.pwebbox-left .pwebbox_toggler,
+.pwebbox-vertical.pwebbox-right .pwebbox_toggler {
+	width: 20px;
+	height: 120px;
+}
+
+ /* Toggler radius
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox-radius.pwebbox-left .pwebbox_toggler {
+	-webkit-border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	border-radius: 0 10px 10px 0;
+}
+.pwebbox-radius.pwebbox-right .pwebbox_toggler {
+	-webkit-border-radius: 10px 0 0 10px;
+	-moz-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px;
+}
+.pwebbox-radius.pwebbox-top .pwebbox_toggler {
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+.pwebbox-radius.pwebbox-bottom .pwebbox_toggler {
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.pwebbox-radius.pwebbox-static .pwebbox_toggler {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+ /* Vertical Toggler text
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox-vertical.pwebbox-left .pwebbox_toggler .text,
+.pwebbox-vertical.pwebbox-right .pwebbox_toggler .text {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+ /* Icon
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox-icon .pwebbox_toggler {
+	padding: 10px 40px 10px 10px;
+}
+.pwebbox-icon.pwebbox-horizontal.pwebbox-right .pwebbox_toggler {
+	padding: 10px 10px 10px 40px;
+}
+.pwebbox-icon.pwebbox-vertical.pwebbox-left .pwebbox_toggler,
+.pwebbox-icon.pwebbox-vertical.pwebbox-right .pwebbox_toggler {
+	padding: 40px 10px 10px 10px;
+}
+
+.pwebbox-icon .pwebbox_toggler .icon {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.pwebbox-icon.pwebbox-horizontal.pwebbox-right .pwebbox_toggler .icon {
+	left: 5px;
+	right: auto;
+}
+
+
+ /* Toggler for Slide in box
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox .pwebbox_toggler {
+	position: absolute;
+	z-index: 1;
+}
+.pwebbox.pwebbox-horizontal.pwebbox-left .pwebbox_toggler {
+	top: 10px;
+	left: 0;
+}
+.pwebbox.pwebbox-horizontal.pwebbox-right .pwebbox_toggler {
+	top: 10px;
+	right: 0;
+}
+.pwebbox.pwebbox-vertical.pwebbox-left .pwebbox_toggler {
+	top: 0;
+	right: -40px;
+}
+.pwebbox.pwebbox-vertical.pwebbox-right .pwebbox_toggler {
+	top: 0;
+	left: -40px;
+}
+.pwebbox.pwebbox-top .pwebbox_toggler {
+	bottom: -40px;
+}
+.pwebbox.pwebbox-bottom .pwebbox_toggler {
+	top: -40px;
+}
+.pwebbox.pwebbox-offset-left.pwebbox-top .pwebbox_toggler,
+.pwebbox.pwebbox-offset-left.pwebbox-bottom .pwebbox_toggler {
+	left: 0;
+}
+.pwebbox.pwebbox-offset-right.pwebbox-top .pwebbox_toggler,
+.pwebbox.pwebbox-offset-right.pwebbox-bottom .pwebbox_toggler {
+	right: 0;
+}
+
+
+ /* Slide in box
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox {
+	overflow: visible;
+}
+.pwebbox .pwebbox_box {
+	position: relative;
+	z-index: 0;
+	padding: 10px;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+.pwebbox.pwebbox-left.pwebbox-horizontal .pwebbox_box {
+	position: absolute;
+	top: 0;
+	padding: 60px 10px 10px 10px;
+}
+.pwebbox.pwebbox-left.pwebbox-horizontal.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	border-radius: 0 10px 10px 0;
+}
+.pwebbox.pwebbox-right.pwebbox-horizontal .pwebbox_box {
+	position: absolute;
+	top: 0;
+	padding: 60px 10px 10px 10px;
+}
+.pwebbox.pwebbox-right.pwebbox-horizontal.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 10px 0 0 10px;
+	-moz-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px;
+}
+.pwebbox.pwebbox-left.pwebbox-vertical .pwebbox_box {
+	padding-left: 50px;
+}
+.pwebbox.pwebbox-left.pwebbox-vertical.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 0 0 10px 0;
+	-moz-border-radius: 0 0 10px 0;
+	border-radius: 0 0 10px 0;
+}
+.pwebbox.pwebbox-right.pwebbox-vertical .pwebbox_box {
+	padding-right: 50px;
+}
+.pwebbox.pwebbox-right.pwebbox-vertical.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 0 0 0 10px;
+	-moz-border-radius: 0 0 0 10px;
+	border-radius: 0 0 0 10px;
+}
+.pwebbox.pwebbox-top .pwebbox_box {
+	padding-top: 50px;
+}
+.pwebbox.pwebbox-top.pwebbox-offset-left.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 0 0 10px 0;
+	-moz-border-radius: 0 0 10px 0;
+	border-radius: 0 0 10px 0;
+}
+.pwebbox.pwebbox-top.pwebbox-offset-right.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 0 0 0 10px;
+	-moz-border-radius: 0 0 0 10px;
+	border-radius: 0 0 0 10px;
+}
+.pwebbox.pwebbox-bottom .pwebbox_box {
+	padding-bottom: 50px;
+}
+.pwebbox.pwebbox-bottom.pwebbox-offset-left.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 0 10px 0 0;
+	-moz-border-radius: 0 10px 0 0;
+	border-radius: 0 10px 0 0;
+}
+.pwebbox.pwebbox-bottom.pwebbox-offset-right.pwebbox-radius .pwebbox_box {
+	-webkit-border-radius: 10px 0 0 0;
+	-moz-border-radius: 10px 0 0 0;
+	border-radius: 10px 0 0 0;
+}
+
+ /* Container for Slide in box
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox .pwebbox_container {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.pwebbox .pwebbox_content {
+	padding: 10px;
+}
+.pwebbox.pwebbox-radius .pwebbox_container {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ /* Iframe Container for Slide in box
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox.pwebbox-iframe .pwebbox_container {
+	overflow: hidden;
+}
+.pwebbox.pwebbox-iframe .pwebbox_content {
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.pwebbox.pwebbox-iframe.pwebbox-radius iframe {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ /* Shadow
+  * --------------------------------------------------------------------- 
+  */
+.pwebbox-shadow .pwebbox_box {
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.pwebbox-shadow .pwebbox_toggler {
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.pwebbox-shadow.pwebbox.pwebbox-offset-left.pwebbox-top .pwebbox_toggler {
+	-moz-box-shadow: -1px 3px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: -1px 3px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: -1px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.pwebbox-shadow.pwebbox.pwebbox-offset-left.pwebbox-bottom .pwebbox_toggler {
+	-moz-box-shadow: -1px -3px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: -1px -3px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: -1px -3px 3px rgba(0, 0, 0, 0.25);
+}
+.pwebbox-shadow.pwebbox.pwebbox-offset-right.pwebbox-top .pwebbox_toggler {
+	-moz-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.pwebbox-shadow.pwebbox.pwebbox-offset-right.pwebbox-bottom .pwebbox_toggler {
+	-moz-box-shadow: 1px -3px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 1px -3px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 1px -3px 3px rgba(0, 0, 0, 0.25);
+}
+.pwebbox-shadow.pwebbox.pwebbox-vertical.pwebbox-left .pwebbox_toggler {
+	-moz-box-shadow: 3px -1px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 3px -1px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 3px -1px 3px rgba(0, 0, 0, 0.25);
+}
+.pwebbox-shadow.pwebbox.pwebbox-vertical.pwebbox-right .pwebbox_toggler {
+	-moz-box-shadow: -3px -1px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: -3px -1px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: -3px -1px 3px rgba(0, 0, 0, 0.25);
+}
+
+ /* Lightbox Window
+  * --------------------------------------------------------------------- 
+  */
+#sbox-window.pwebBoxWindow.hide-close #sbox-btn-close {
+	display: none;
+}
+/* Opera fix */
+#sbox-overlay {
+	width: 100%;
+	height: 100%;
+}
+
+iframe.pwebbox-content-iframe {
+	width: 100%;
+	height: 400px;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+	padding: 0;
+}
+.pwebbox-pagination {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 0 0;
+	text-align: center;
+}
+.pwebbox-pagination a.pwebbox-prev {
+	
+}
+.pwebbox-pagination a.pwebbox-next {
+	
+}
+.pwebbox-pagination span.pwebbox-page {
+	padding: 0 20px;
+}
+
+ /* Common
+  * --------------------------------------------------------------------- 
+  */
+.pweb_clear {
+	clear: both; height: 0; width: 0; overflow: hidden; padding: 0;
+}
+body div.calendar { 
+	z-index: 1000;
+}
+/* WebKit fix if body is lower then window viewport */
+html, body {height:100%}

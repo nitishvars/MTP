@@ -1,0 +1,14 @@
+nlp.py
+	Program to read files from twitter folder and fill input database
+	spellChecker.py : It uses spellChecker.py 
+		dict.txt
+		internet lingo.txt
+		slang.txt
+		happy.txt
+		sad.txt
+		abbreviation.txt
+classifier.py 
+	Program to read feeds from input table and fills output table.
+	classTester.py : It uses classTester.py for actual classification
+		positive-words.txt
+		negative-words.txt
