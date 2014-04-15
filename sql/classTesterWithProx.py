@@ -51,8 +51,8 @@ miscNeg = ["corruption"];
 miscPosComb = ["special tariff vouchers", "sent from aircel update", "dishtv aircel", "extra talk time", "full talk value", "joined force", "fixed the network", "go for bsnl"];
 miscNegComb = ["server hacked","killed by govt"];
 
-pricePosVerb = ["decrease","reduce", "reduced", "reduction", "drop", "down", "cheap", "cutter", "less", "low","lowest","slashes", "slashed"];
-priceNegVerb = ["increase", "hike", "raise", "raising", "doubled"];
+pricePosVerb = ["decrease","reduce", "reduced", "reduction", "drop", "down", "cheap", "cut", "cutter", "less", "low","lowest","slashes", "slashed"];
+priceNegVerb = ["increase", "hike", "raise", "raising", "doubled", "costly"];
 priceAspect = ["rate", "price", "pricing","charge", "tariff"];
 
 servicePosClass1 = ["exclusive", "late", "cheap", "free", "activate","activated", "activating"]; #all positive
